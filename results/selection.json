@@ -1,0 +1,171 @@
+{
+  "status": "VALIDATION_ONLY_SELECTION",
+  "selected": {
+    "own": {
+      "family": "own",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.041977271462085027,
+      "eligible": true
+    },
+    "english2": {
+      "family": "english2",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04278150828296134,
+      "eligible": true
+    },
+    "english7": {
+      "family": "english7",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04316382739672081,
+      "eligible": true
+    }
+  },
+  "candidates": [
+    {
+      "family": "own",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.041977271462085027,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 0.1,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.049511171016404634,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 1.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.09738805314002626,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 10.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.2887369444301324,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 100.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.426252764141207,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04278150828296134,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.1,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04861271650630758,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 1.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.08605170184590089,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 10.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.2469695554033104,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 100.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.4146425600275102,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04316382739672081,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.1,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.049825103103392526,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 1.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.09205324881109835,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 10.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.25640442836377464,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 100.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.41653645843655923,
+      "eligible": true
+    }
+  ],
+  "fitted_models": 405,
+  "trial_rows": 405,
+  "prediction_rows": 49410,
+  "selection_language": "es",
+  "selection_role": "development",
+  "selection_topics": [
+    "Q11660",
+    "Q68",
+    "Q111",
+    "Q638",
+    "Q11982",
+    "Q3887",
+    "Q525",
+    "Q8072",
+    "Q283"
+  ],
+  "source_manifest_sha256": "308cfd9179a418b487dc595bf9c36895c15920173602785b94c3eeb86398595f",
+  "source_accounting_sha256": "03c3e36f09c0aea03fde62e9db12274e4fc14259a6c9b506f5f0116739ccc2ea",
+  "test_inference_performed": false,
+  "test_outcome_summary_inspected": false
+}

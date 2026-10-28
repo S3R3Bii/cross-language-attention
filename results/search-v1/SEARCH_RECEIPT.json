@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-28T23:07:00.214027+00:00",
+  "status": "PASS_ORIGINAL_VALIDATION_ONLY_SEARCH",
+  "fits": 405,
+  "predictions": 49410,
+  "test_inference_performed": false,
+  "boundary_winners": "All three families select the smallest declared penalty 0.01",
+  "sha256": {
+    "validation_models.json": "7a86da844dcc966c0fe0430bbc4b7ea59bc1116fef0a21ac2df42739e13b4b37",
+    "validation_predictions.csv.gz": "0726646c59d669a2aaf8cf8aa5d66cfbbe7c305cad870318583e3c5e00a35552",
+    "validation_trials.csv": "cc71868d94989f0c3f9cc3228a1d19da9d9e3479d907a56d345aabfb74d1061f",
+    "selection.json": "76f744c783af3026e456e9b1c68f17fcd2995a9b4d0227ba8659fff2acec1900",
+    "INDEPENDENT_VALIDATION_CHECK.json": "843fd85ee9eb7f3f54eaadfd18f6ebf07eb14fdef68e8cabdcacfa9b608672b5"
+  }
+}
