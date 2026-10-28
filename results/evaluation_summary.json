@@ -1,0 +1,10 @@
+{
+  "status": "EVALUATED_FROZEN_2025_COMPARISON",
+  "frozen_commit": "5a446198de1f0fc3eff16b675f39cd37a60236df",
+  "test_prediction_rows": 47450,
+  "page_method_metrics": 130,
+  "summary_rows": 30,
+  "bootstrap_draws": 16000,
+  "preexisting_test_reused_for_correction": false,
+  "scope": "Retrospective source snapshot, fixed title convenience panel, assumed two-day input availability; no causal or prospective performance claim."
+}

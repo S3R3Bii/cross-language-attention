@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scalar_predictions_reconstructed": 47450,
+  "page_method_metric_rows": 130,
+  "summary_rows": 30,
+  "independent_common_month_draws": 16000,
+  "interval_rows": 8,
+  "scope": "Every retained final prediction, target join, date/denominator, MASE scale, scalar metric, group weight, month draw and interval; no fitting-code metric helper imported.",
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09
+}
