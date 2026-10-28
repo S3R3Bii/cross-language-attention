@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-28T22:54:16.038474+00:00",
+  "requests": [
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&titles=Earth%7CMoon%7CMars%7CSun%7CVolcano%7CEarthquake%7CTsunami%7CArtificial_intelligence%7CMachine_learning%7CClimate_change%7COlympic_Games%7CSolar_eclipse&props=sitelinks&sitefilter=enwiki%7Ceswiki%7Cjawiki&format=json",
+      "retrieved_utc": "2026-10-28T22:54:16.038474+00:00",
+      "file": "data/source/topic-sitelinks.json.gz",
+      "status": "ok",
+      "response_sha256": "309fc845dff2dc406299768abece201428258f17b6c7246e81f4e35b2324e72d",
+      "stored_sha256": "e09665092834b65ff3ffb3812541bd09e2843d4b8f09616839c345a4aa99df05"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Artificial+intelligence%7CClimate+change%7CEarth%7CEarthquake%7CMachine+learning%7CMars%7CMoon%7COlympic+Games%7CSolar+eclipse%7CSun%7CTsunami%7CVolcano&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:54:16.464844+00:00",
+      "file": "data/source/en-page-identities.json.gz",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "API returned an error: invalidparammix"
+    }
+  ]
+}
