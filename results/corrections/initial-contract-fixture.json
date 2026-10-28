@@ -1,0 +1,9 @@
+{
+  "stage": "Before fitting and test inference",
+  "failed_check": "Prediction-row independence fixture included a million-unit standardized extrapolation",
+  "actual_result": "Six of seven original contracts passed. The numerical finite guard rejected exponential overflow in the unrelated extreme row, so the intended row-independence assertion was never reached.",
+  "correction": "Use a finite moderate extrapolation for the row-independence contract and add a separate explicit overflow-rejection contract.",
+  "model_or_metric_change": false,
+  "clipping_or_tolerance_change": false,
+  "test_outcomes_inspected": false
+}

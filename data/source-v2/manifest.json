@@ -1,0 +1,2540 @@
+{
+  "started_utc": "2026-10-28T23:01:43.392288+00:00",
+  "completed_utc": "2026-10-28T23:01:59.008513+00:00",
+  "source": "Wikimedia Analytics API and selected factual MediaWiki/Wikidata metadata",
+  "user_agent": "CrossLanguageAttentionResearch/0.1 (https://github.com/S3R3Bii/cross-language-attention) Python-urllib/3.10",
+  "pageview_license": "CC0-1.0",
+  "wikidata_structured_license": "CC0-1.0",
+  "scope": "Fixed titles; aggregate classified-user daily requests; no editor names or comments requested",
+  "requests": [
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&titles=Earth%7CMoon%7CMars%7CSun%7CVolcano%7CEarthquake%7CTsunami%7CArtificial_intelligence%7CMachine_learning%7CClimate_change%7COlympic_Games%7CSolar_eclipse%7CWater%7CPhotosynthesis%7CComputer%7CMusic&props=sitelinks&sitefilter=enwiki%7Ceswiki%7Cjawiki&format=json",
+      "retrieved_utc": "2026-10-28T23:01:43.392288+00:00",
+      "file": "data/source-v2/topic-sitelinks.json.gz",
+      "status": "ok",
+      "response_sha256": "f263cc497c7b2f8a8aa7b571b527ad7dcac28ee2ef3c3aff7cd0bc6547503019",
+      "stored_sha256": "f21dbd3382e6ece998d42253b063ae703981d5a50da0eddccda3d7ba8e44374c"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Artificial+intelligence&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:22.281760+00:00",
+      "file": "data/source-v2/en-Q11660-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "a5b741a50ac19c2079f4dd92428d40d868fc8daa00ccae0ec859585157f5b63f",
+      "stored_sha256": "8675606fe94a05006c7bf4560bec5c71003420f2153d1ca2bd00474b66bc1b66",
+      "reused_from": "data/source/en-Q11660-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Artificial+intelligence&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:22.491819+00:00",
+      "file": "data/source-v2/en-Q11660-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "3a4a377ac7a76af29113368fdf4bba8e7fb18b5e6f27b8ab7a7d2176332f5a04",
+      "stored_sha256": "66d5a56d96de4b915f9d58a41ef68e90977d8090c23a27624e497d10d863b623",
+      "reused_from": "data/source/en-Q11660-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Climate+change&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:22.674320+00:00",
+      "file": "data/source-v2/en-Q125928-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "33ee48519e95d2317efff1c1c7b7ff21b02629dffdf8b6d524229492f64e49d6",
+      "stored_sha256": "44931e86c9dce30e5df11c6382d0e8488228a5b531f065fce2d1172d3bda9f31",
+      "reused_from": "data/source/en-Q125928-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Climate+change&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:22.830850+00:00",
+      "file": "data/source-v2/en-Q125928-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q125928-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Computer&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:43.938996+00:00",
+      "file": "data/source-v2/en-Q68-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "bb76fce4f54ee086d7fece59ce14011c82907c29d10613cba3673299f8d7ba30",
+      "stored_sha256": "48000adb96152f9ce3d6d94d23d1a1bc2af5834e3897624c828def0f471df889"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Computer&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:44.107520+00:00",
+      "file": "data/source-v2/en-Q68-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Earth&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:23.060850+00:00",
+      "file": "data/source-v2/en-Q2-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "bed8df1073cda89597599bb39a1db318b957ea8bcacd18e66f6c0db8ae587045",
+      "stored_sha256": "0b89cd6f476210d8708c071d7b2749bc9698b4bb215e6b95ba8c6515c06a5fdc",
+      "reused_from": "data/source/en-Q2-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Earth&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:23.242947+00:00",
+      "file": "data/source-v2/en-Q2-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q2-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Earthquake&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:23.426055+00:00",
+      "file": "data/source-v2/en-Q7944-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "26b82b328c59e75404208564aaf048878ffa3a17438e29a96ba5922bc7812489",
+      "stored_sha256": "4327d528beac1296160ee19193c1c05709ab15c111b9b8e9db4658b2d3a65f5e",
+      "reused_from": "data/source/en-Q7944-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Earthquake&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:23.598478+00:00",
+      "file": "data/source-v2/en-Q7944-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "8ef5c77d1ff77f06dc6d314ef5545b2568aaacf96619a7394fe8f720752eae33",
+      "stored_sha256": "816bf4afde8bd745211aad2503151de733f25c288ea0a35eacbc5b63c7bfd4e7",
+      "reused_from": "data/source/en-Q7944-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Machine+learning&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:23.771533+00:00",
+      "file": "data/source-v2/en-Q2539-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "a14d37e1b0c545ee0ef6cd2b5ae3be498314acb4d030644a4501f3fbc1e64aff",
+      "stored_sha256": "c04fc57d59c52f084cf0b56bb3024425afa9ba4303ed8de33192c8bde0ee6572",
+      "reused_from": "data/source/en-Q2539-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Machine+learning&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:23.941058+00:00",
+      "file": "data/source-v2/en-Q2539-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q2539-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Mars&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:24.123716+00:00",
+      "file": "data/source-v2/en-Q111-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "bd512f67cd584f541c2b64f7b11e0cfeb1da3e7ec1d736b53fc4af521dc856a3",
+      "stored_sha256": "0b31e12bc3c016ae12b680e3caa236a31fd73a5d7c3742fd20d46c9388364ef7",
+      "reused_from": "data/source/en-Q111-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Mars&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:24.311367+00:00",
+      "file": "data/source-v2/en-Q111-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q111-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Moon&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:24.473380+00:00",
+      "file": "data/source-v2/en-Q405-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "7007767a966ae677cd7da10b4e00809068949dab009889c33b52964d07561f4b",
+      "stored_sha256": "ba4c2316e7d5d533c71916abfc01b9fd64bf7c7a72ae2b2d0efc08e82ed451f0",
+      "reused_from": "data/source/en-Q405-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Moon&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:24.628642+00:00",
+      "file": "data/source-v2/en-Q405-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q405-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Music&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:44.294556+00:00",
+      "file": "data/source-v2/en-Q638-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "eb9a623ecc6e21b54266e9568823f6fe6e510761c88c2ec2acc611aad8f6e396",
+      "stored_sha256": "3e2aecb04a142af3c0f2d8a3d8335266ca9d4a54b230c25d150e65d8f7003c83"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Music&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:44.453578+00:00",
+      "file": "data/source-v2/en-Q638-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Olympic+Games&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:24.798886+00:00",
+      "file": "data/source-v2/en-Q5389-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "581c28a16b7728b5e15d1ddda2f2f3ec13557e6aa3ec706c17e4288858ca4d28",
+      "stored_sha256": "0638657bcce91e7b259aa0c5abb459c11656a5dab10eead28382afd345b47cda",
+      "reused_from": "data/source/en-Q5389-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Olympic+Games&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:24.956931+00:00",
+      "file": "data/source-v2/en-Q5389-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q5389-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Photosynthesis&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:44.600108+00:00",
+      "file": "data/source-v2/en-Q11982-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "01ba7b48db855687894f6559e5c5f5abb5273fd19e803b1bc9231cd7be334a14",
+      "stored_sha256": "f5eedb6129c0d4e8b90af0f4fc2d3321e98e5bd6e6a84f74bf19d6b25f556485"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Photosynthesis&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:44.771156+00:00",
+      "file": "data/source-v2/en-Q11982-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Solar+eclipse&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:25.135990+00:00",
+      "file": "data/source-v2/en-Q3887-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "b60c7e97c1980b456c4370880a13579011684e830d64f6589218f9e1f6f48e5a",
+      "stored_sha256": "8c91ca4b003c9e9c0ed118ada7de5b4347656487805c61f8ee0e71bbd7e55f15",
+      "reused_from": "data/source/en-Q3887-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Solar+eclipse&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:25.344236+00:00",
+      "file": "data/source-v2/en-Q3887-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q3887-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Sun&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:25.517303+00:00",
+      "file": "data/source-v2/en-Q525-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "dd4047ff809b30dbf0a150487f9554d7cc96d95404cfd23ef34925e8b8d1e98f",
+      "stored_sha256": "a651cc904cf5fa7d519e5c4eab1fb4311cefc86d0b6e891f04d9132857366317",
+      "reused_from": "data/source/en-Q525-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Sun&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:25.680349+00:00",
+      "file": "data/source-v2/en-Q525-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q525-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Tsunami&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:25.851366+00:00",
+      "file": "data/source-v2/en-Q8070-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "ea7b2dc26f45fa7fde42ddb388dabe787ee53c11983e890357baeeea7420f71f",
+      "stored_sha256": "ae78d744942cec859dac668c2902cfb0b03f0b5fbead57a69f2fa87574c074d3",
+      "reused_from": "data/source/en-Q8070-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Tsunami&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:26.043484+00:00",
+      "file": "data/source-v2/en-Q8070-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q8070-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Volcano&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:26.212519+00:00",
+      "file": "data/source-v2/en-Q8072-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "e714052a7e90c2b0aebac329bcd615a720cf55991fa05c60692ee178abcf76e4",
+      "stored_sha256": "cb2010a93467f41c65a5cf9290d0c9b466deedf906459e920a118562de5f95c2",
+      "reused_from": "data/source/en-Q8072-page-identity.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Volcano&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:26.844826+00:00",
+      "file": "data/source-v2/en-Q8072-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/en-Q8072-moves.json.gz"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Water&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:44.927183+00:00",
+      "file": "data/source-v2/en-Q283-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "b866af3a5ff95dacab8e82d410ac36bbc7a75f8b97cbcbd08402caf40c54884e",
+      "stored_sha256": "e62e6a82d8e8e1b2b744381bda0cdf7d84605152886782ca76f35b5a661b1211"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Water&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:45.181924+00:00",
+      "file": "data/source-v2/en-Q283-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Inteligencia+artificial&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:27.028801+00:00",
+      "file": "data/source-v2/es-Q11660-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "cd8b7a33742f8482e8e6ff4eb4023658b93f6a4b37e6ac34856c9752b04511e1",
+      "stored_sha256": "b5239cc14bec10a9b694182a349cbc83058468f58cb4fdd3e1b65f5fb6863927",
+      "reused_from": "data/source/es-Q11660-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Inteligencia+artificial&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:27.280371+00:00",
+      "file": "data/source-v2/es-Q11660-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q11660-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Cambio+clim%C3%A1tico+global&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:27.449411+00:00",
+      "file": "data/source-v2/es-Q125928-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "4ca2994947fb37216278c5be09a0a51808af8f61f70351b65c934fe0559b2968",
+      "stored_sha256": "3d1e65cbb955b005efbe1a3ad4e5f56a5b57baa4ec379695d04f842d0f7b0d0e",
+      "reused_from": "data/source/es-Q125928-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Cambio+clim%C3%A1tico+global&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:27.640086+00:00",
+      "file": "data/source-v2/es-Q125928-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q125928-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Computadora&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:45.352819+00:00",
+      "file": "data/source-v2/es-Q68-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "7a72db45e6dfdb0ae2918985699c091a1445dc25d5c8473b3407cb137e51bccf",
+      "stored_sha256": "fff291b7c2d18cf32e1735e691d96e0bdc6723739c347169f85adaa6ae45f23a"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Computadora&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:45.517883+00:00",
+      "file": "data/source-v2/es-Q68-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Tierra&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:27.820142+00:00",
+      "file": "data/source-v2/es-Q2-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "9215c46aa63896da677411badb861de9b55075a685ca4ff33e160fbe93eaa9fc",
+      "stored_sha256": "e4ff90e677255ca81da2149e465d1c2308357675873e370b72abb59ec2adcf19",
+      "reused_from": "data/source/es-Q2-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Tierra&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:28.004972+00:00",
+      "file": "data/source-v2/es-Q2-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "d2da43cc0d01a0de29e44ea04a0856d2a8427b92002777a8f77aa3eff16ffb2e",
+      "stored_sha256": "a5108dbb4d7e5b4656ce18a31a0725fb689301a247b977a5cb2d03782d017c55",
+      "reused_from": "data/source/es-Q2-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Terremoto&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:28.176464+00:00",
+      "file": "data/source-v2/es-Q7944-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "a446a919c10f93d074843979b4e660b969885b25d39ce71bbe5517dc76c30f67",
+      "stored_sha256": "28aae4460ef4030236d4e0f72ac9ebfc15be0b2d703a55d5f85fd46512d8337c",
+      "reused_from": "data/source/es-Q7944-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Terremoto&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:28.357333+00:00",
+      "file": "data/source-v2/es-Q7944-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q7944-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Aprendizaje+autom%C3%A1tico&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:28.522870+00:00",
+      "file": "data/source-v2/es-Q2539-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "793ce4cb6395f601d4c9702abeaaee88b402fb04eec3246c95c9b629e8769595",
+      "stored_sha256": "c426c1cee2f1a754c62912b4277246de98b95a92d9ecf423dde81c79e9cf40dd",
+      "reused_from": "data/source/es-Q2539-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Aprendizaje+autom%C3%A1tico&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:28.694901+00:00",
+      "file": "data/source-v2/es-Q2539-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q2539-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Marte+%28planeta%29&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:28.883930+00:00",
+      "file": "data/source-v2/es-Q111-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "c3eb1c7a5b8721dfd0d0b3093f78d8afe9b7a1e9fc78340d9744f8fcdba7c93e",
+      "stored_sha256": "129cac2cc07a54bd4cdd135d63837bf7e26bc139bddbd0bb6bd7dccc43e369d6",
+      "reused_from": "data/source/es-Q111-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Marte+%28planeta%29&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:29.068964+00:00",
+      "file": "data/source-v2/es-Q111-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q111-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Luna&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:29.221475+00:00",
+      "file": "data/source-v2/es-Q405-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "35ab801cec1e03022999ae8e67cd7e866b0a3e24eb0a9ae481c239420d7bcff8",
+      "stored_sha256": "556c0c642ca9d73734954250062ccb660250fa6c2a297826c7a59c798ae60919",
+      "reused_from": "data/source/es-Q405-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Luna&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:29.403148+00:00",
+      "file": "data/source-v2/es-Q405-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "e4d33ac7ac22b8aca5667d9087c0d409b7540fe56b0f9bc82e1fdda03874d758",
+      "stored_sha256": "57f020fdd44c0dfa095aa8345eb3b0820287ed21dcac7117c8681bdebc51dd51",
+      "reused_from": "data/source/es-Q405-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=M%C3%BAsica&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:45.677407+00:00",
+      "file": "data/source-v2/es-Q638-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "5521bb1002c3f5ab24df71ed9a2af2fcd38383bd0d0e2b14d57e5e3dcec8fbfd",
+      "stored_sha256": "d619f3968ab1f1390a76682e83ffc5de03c21b7393ab126af98268291deaead0"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=M%C3%BAsica&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:45.957959+00:00",
+      "file": "data/source-v2/es-Q638-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Juegos+Ol%C3%ADmpicos&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:29.581765+00:00",
+      "file": "data/source-v2/es-Q5389-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "9471c05175e9b6937ca94ec52e2873e726f7bda7ba97bc170eb9561ce228ab47",
+      "stored_sha256": "99b32a8d5344a806cb8e248d5348b7b2a9d770cf09a726cc8bc26d98046fd450",
+      "reused_from": "data/source/es-Q5389-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Juegos+Ol%C3%ADmpicos&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:29.745302+00:00",
+      "file": "data/source-v2/es-Q5389-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q5389-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Fotos%C3%ADntesis&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:46.137011+00:00",
+      "file": "data/source-v2/es-Q11982-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "2008f9bc36e5fb9c3a852a55c8dabc9d297308fa8798c0fbcd652594dde6f5b7",
+      "stored_sha256": "19d40495ff93e023e0d71f15024e141ff056d812b3ba291d39029fcebe73174e"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Fotos%C3%ADntesis&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:46.321040+00:00",
+      "file": "data/source-v2/es-Q11982-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Eclipse+solar&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:29.925542+00:00",
+      "file": "data/source-v2/es-Q3887-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "24c1ef76a0a975f2021cb20f25bd2050164d7b97456d079960deea6812f8a2d4",
+      "stored_sha256": "634e6c02ddb10ed48ec190f6b503d9cfa6fffd3daf027cacab6f05f72275715c",
+      "reused_from": "data/source/es-Q3887-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Eclipse+solar&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:30.101586+00:00",
+      "file": "data/source-v2/es-Q3887-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q3887-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Sol&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:30.288496+00:00",
+      "file": "data/source-v2/es-Q525-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "c5fefe11a8c983f75e1412246f61da202679cee7b8907c6d02dbe9bcbd30eaee",
+      "stored_sha256": "9140d75726a82e91b40c2b0da075f3e9ae7b1d94d377ca236ab8a704458076c1",
+      "reused_from": "data/source/es-Q525-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Sol&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:30.441505+00:00",
+      "file": "data/source-v2/es-Q525-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q525-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Tsunami&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:30.618441+00:00",
+      "file": "data/source-v2/es-Q8070-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "e6b4a53cba7f90c3dff114ad11c5a2d640b24c549ce204748817be7f13423dd2",
+      "stored_sha256": "360ab2aacab4efefad571de89b551887e0cd84c6fdac12b16f11e508a02d2196",
+      "reused_from": "data/source/es-Q8070-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Tsunami&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:30.806475+00:00",
+      "file": "data/source-v2/es-Q8070-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q8070-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Volc%C3%A1n&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:30.962048+00:00",
+      "file": "data/source-v2/es-Q8072-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "974a26a63de152e4ef58d15e8943b3ec035579e96a4d54a5c046ae6d98c7a819",
+      "stored_sha256": "f5607e9b5dcbe9ecaa789f676731eab3660b9232422a3e09347ed81db80d709d",
+      "reused_from": "data/source/es-Q8072-page-identity.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Volc%C3%A1n&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:31.124874+00:00",
+      "file": "data/source-v2/es-Q8072-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/es-Q8072-moves.json.gz"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=Agua&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:46.487659+00:00",
+      "file": "data/source-v2/es-Q283-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "54ea324f1d29fce4de13fe1780085ba35ff59a258478433151921da832e8f4b3",
+      "stored_sha256": "326bda323b1a07cac66c8dfa69fc63b1317a7733e1d97ab023f2e172d66c1dd4"
+    },
+    {
+      "url": "https://es.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=Agua&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:46.663685+00:00",
+      "file": "data/source-v2/es-Q283-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:31.347049+00:00",
+      "file": "data/source-v2/ja-Q11660-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "9c438a6914a14df94e38fdabf9476bf3916b6f2361476c5a0ac10fb87f32efae",
+      "stored_sha256": "fd63361df05396235e17e9cbe6e73e2b8010fb3e7c1873aa7b9bf754a7d1b671",
+      "reused_from": "data/source/ja-Q11660-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:31.623084+00:00",
+      "file": "data/source-v2/ja-Q11660-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q11660-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E6%B0%97%E5%80%99%E5%A4%89%E5%8B%95&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:31.805142+00:00",
+      "file": "data/source-v2/ja-Q125928-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "ca680542405bb49617db6cf90015d8e097c7b09899db43e73734bcd99390014b",
+      "stored_sha256": "0b37426338b31e29e8e02b52117d202517b465ad2566f0ea634ca75f6ec84f72",
+      "reused_from": "data/source/ja-Q125928-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E6%B0%97%E5%80%99%E5%A4%89%E5%8B%95&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:31.986190+00:00",
+      "file": "data/source-v2/ja-Q125928-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "049f3d3bfcb7fd55ee5f3ba3bcf07b76acfd2c93620fcecc4454a140246147f4",
+      "stored_sha256": "bc44e25f7d1616048e2df211bc70f9c9b410a67232a8343ef53b0ccf9010761d",
+      "reused_from": "data/source/ja-Q125928-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:46.822724+00:00",
+      "file": "data/source-v2/ja-Q68-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "8389297fb532ff429e2eeebdde6013ac97a4836bd643029d7d0e690552cb7af3",
+      "stored_sha256": "87a7788c8273c52770487da33a1f7360634f84bdbfcfd0b6937773611caa7087"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:46.999519+00:00",
+      "file": "data/source-v2/ja-Q68-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E5%9C%B0%E7%90%83&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:32.164304+00:00",
+      "file": "data/source-v2/ja-Q2-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "d8f2702aedb556f2e3b88d02741b28ed9a6c725a4a4dc48148a9a2a10f07c7fe",
+      "stored_sha256": "3464b42e6c9fcaf7b4170ed3959e20c7f6a2dcb884fc4a1565ac7549e8eb515f",
+      "reused_from": "data/source/ja-Q2-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E5%9C%B0%E7%90%83&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:32.351158+00:00",
+      "file": "data/source-v2/ja-Q2-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q2-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E5%9C%B0%E9%9C%87&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:32.517692+00:00",
+      "file": "data/source-v2/ja-Q7944-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "b50c5e734a355d3a3b1ee76f29c5f0398d93439e6b751390b209a0040df15a2d",
+      "stored_sha256": "a376d50f741eaa54ac8af69faa6a97e916e659d5a43a29a6632d6a3bda525969",
+      "reused_from": "data/source/ja-Q7944-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E5%9C%B0%E9%9C%87&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:32.673769+00:00",
+      "file": "data/source-v2/ja-Q7944-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q7944-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:32.834282+00:00",
+      "file": "data/source-v2/ja-Q2539-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "c39727fb7803adfd6d30ce4e2d9b8928bf3b1a55ad5878f9e386691ceca49d17",
+      "stored_sha256": "0431ee1aa0d261114683d49a82c45f851dc0004b886043198291ce49486a0ee2",
+      "reused_from": "data/source/ja-Q2539-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:33.035404+00:00",
+      "file": "data/source-v2/ja-Q2539-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q2539-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E7%81%AB%E6%98%9F&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:33.204435+00:00",
+      "file": "data/source-v2/ja-Q111-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "e79b3d82cff2e89da312e819a0e809481f2b6aa6376defe29a80a70b05647e74",
+      "stored_sha256": "eccfc062b56bbc1b2dc8d6f7707d8b85270b693eeed38a2b45180b3a63627f50",
+      "reused_from": "data/source/ja-Q111-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E7%81%AB%E6%98%9F&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:33.394070+00:00",
+      "file": "data/source-v2/ja-Q111-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q111-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E6%9C%88&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:33.558103+00:00",
+      "file": "data/source-v2/ja-Q405-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "119fbb121d14c01f16d7d37eaf280871895ae32dd7999be17ba731d6f07d330b",
+      "stored_sha256": "a8373f07e55fd177760e8ec365664212b3ff6af02446570a2dccc8834b930a4b",
+      "reused_from": "data/source/ja-Q405-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E6%9C%88&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:33.735625+00:00",
+      "file": "data/source-v2/ja-Q405-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q405-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E9%9F%B3%E6%A5%BD&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:47.240060+00:00",
+      "file": "data/source-v2/ja-Q638-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "2651739144a461bf720b7de1e467931ca8be9053c7d44a4f08b042c8853a3ecc",
+      "stored_sha256": "fa438969539fa6005943425bf03dad407800337b6ee28ae16901f688260a6c27"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E9%9F%B3%E6%A5%BD&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:47.408586+00:00",
+      "file": "data/source-v2/ja-Q638-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:33.931181+00:00",
+      "file": "data/source-v2/ja-Q5389-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "76515081af60ee508e1c3ba18c11bcdb2fb6c5d0a72d9774ab87684626c4f3f3",
+      "stored_sha256": "66c1c9ace10324b01c714b18923d6b63e3b285a8a73a877de44444a893dfc1e8",
+      "reused_from": "data/source/ja-Q5389-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:34.107229+00:00",
+      "file": "data/source-v2/ja-Q5389-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q5389-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E5%85%89%E5%90%88%E6%88%90&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:47.720320+00:00",
+      "file": "data/source-v2/ja-Q11982-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "8cf5b4c67c2ffaf8167785736fb55a0fd2e2df2edebacc5768b9a85e89bc6e16",
+      "stored_sha256": "a60df51e2c1dea07b894e61e3357de9810e411025c9184a824b553d08984f36e"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E5%85%89%E5%90%88%E6%88%90&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:47.907849+00:00",
+      "file": "data/source-v2/ja-Q11982-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E6%97%A5%E9%A3%9F&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:34.275275+00:00",
+      "file": "data/source-v2/ja-Q3887-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "657fa245f1ba2c800530a30c2fcace703f26361d7b57bca108a434e18e19acc3",
+      "stored_sha256": "b640deb3c6ab78b5fdb69c07e91afa0e297dd5e676b8e90872624e3a54f9654c",
+      "reused_from": "data/source/ja-Q3887-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E6%97%A5%E9%A3%9F&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:34.448049+00:00",
+      "file": "data/source-v2/ja-Q3887-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q3887-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E5%A4%AA%E9%99%BD&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:34.632155+00:00",
+      "file": "data/source-v2/ja-Q525-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "d10ae2f754ef3bc0cbb4d131ce9e9a9fc67f296c9386eaf5e71856e836442bc5",
+      "stored_sha256": "40dae1d9709f578f03b471cfb327825654c947e48eb0576a7f3c339d3de6b38d",
+      "reused_from": "data/source/ja-Q525-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E5%A4%AA%E9%99%BD&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:34.786773+00:00",
+      "file": "data/source-v2/ja-Q525-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q525-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E6%B4%A5%E6%B3%A2&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:34.942316+00:00",
+      "file": "data/source-v2/ja-Q8070-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "7dd42ae4eb848c4c6f34f4f557cd6fedcdaff33e23c6d9c95d42ed47504abe3f",
+      "stored_sha256": "d9dea421dc6e507c3ebbb007e621df2d5aea003be4dda7aa519d6ff0b57e0181",
+      "reused_from": "data/source/ja-Q8070-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E6%B4%A5%E6%B3%A2&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:35.125474+00:00",
+      "file": "data/source-v2/ja-Q8070-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q8070-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E7%81%AB%E5%B1%B1&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T22:55:35.278886+00:00",
+      "file": "data/source-v2/ja-Q8072-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "3318a7f9999cc90d3128f539d8040c4d34badffcca23ee21d28bee5e08015321",
+      "stored_sha256": "24bd901a4588b6c22d110dcdde9ee671883955d5992a9600fc9948a5bdeed49b",
+      "reused_from": "data/source/ja-Q8072-page-identity.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E7%81%AB%E5%B1%B1&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T22:55:35.428198+00:00",
+      "file": "data/source-v2/ja-Q8072-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc",
+      "reused_from": "data/source/ja-Q8072-moves.json.gz"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&prop=info%7Crevisions&titles=%E6%B0%B4&rvprop=ids%7Ctimestamp&rvlimit=1&rvstart=2021-12-31T23%3A59%3A59Z&format=json&formatversion=2&redirects=1",
+      "retrieved_utc": "2026-10-28T23:01:48.088891+00:00",
+      "file": "data/source-v2/ja-Q283-page-identity.json.gz",
+      "status": "ok",
+      "response_sha256": "2a517c4324a3ded73f89801b73e3d6bb74b2736aeab89d7bc14e2b1cf6eb9c0d",
+      "stored_sha256": "db604e635daed75bd0af5360425c103cd9982bae8d9366b28f0023caca555c6b"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/api.php?action=query&list=logevents&letype=move&letitle=%E6%B0%B4&leprop=ids%7Ctitle%7Ctype%7Ctimestamp%7Cdetails&leend=2022-01-01T00%3A00%3A00Z&lelimit=500&format=json&formatversion=2",
+      "retrieved_utc": "2026-10-28T23:01:48.235928+00:00",
+      "file": "data/source-v2/ja-Q283-moves.json.gz",
+      "status": "ok",
+      "response_sha256": "9b8a5359db2b6f583784e5b74003b5e001b84a1f6b216c4f9abcb3483915ec78",
+      "stored_sha256": "18590e0e3e7daebe985750c0594a93efbcd83b2faba9abded1fdfd08f2b865fc"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Artificial_intelligence/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:35.604410+00:00",
+      "file": "data/source-v2/en-Q11660-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "06c42f26f4515a249489059b3dd0f9a68b8f5aff99463d5d4a4f95a13f7813b7",
+      "stored_sha256": "ce773811b74c5b88b6ba14b074aca7ea1d674befe27d451a2fb2150a0b75f3cb",
+      "reused_from": "data/source/en-Q11660-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Artificial_intelligence/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:35.948696+00:00",
+      "file": "data/source-v2/en-Q11660-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "e093a031a560af655f8a272d4f9bc16880ba07fadf657510b7c8152a8f3e66cd",
+      "stored_sha256": "f4fff59aa5742dd0dd0c2905792a5154f8fd07df1cf0720ecefd7ce120b7c75b",
+      "reused_from": "data/source/en-Q11660-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Artificial_intelligence/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:36.160743+00:00",
+      "file": "data/source-v2/en-Q11660-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "0e29a498f391b9b191d09bb7855c4433b3510a32e0fcbdbd130d3c9ee794e525",
+      "stored_sha256": "5fad65e1652dbb92f3c8765a0b51f00e558e3e8f13360215f43367af2f09d207",
+      "reused_from": "data/source/en-Q11660-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Artificial_intelligence/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:36.380347+00:00",
+      "file": "data/source-v2/en-Q11660-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "d0dad961fa9f780363a1c3edbba555a38c8d8d6c251b1fceb3c92deb20f4f7ee",
+      "stored_sha256": "f09b1c7a8cecf7bf1f48d0dd4c0eb318327423caabd5b0d05992ed040caab032",
+      "reused_from": "data/source/en-Q11660-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Climate_change/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:36.611980+00:00",
+      "file": "data/source-v2/en-Q125928-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "90f652c196c26753ae133771cbb9bb8e815f2714c5cdc7b99918442ef187e186",
+      "stored_sha256": "02a914ad4417d6c5f39d16d1a920adeb426feae1b734f35f916c8458b861f456",
+      "reused_from": "data/source/en-Q125928-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Climate_change/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:36.839046+00:00",
+      "file": "data/source-v2/en-Q125928-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "78933e3a250321221e202069a88c0cb905107a9635ff7560904b352df8ecce6c",
+      "stored_sha256": "2054e79fdd4a4e566a075299d13e03458721cdace777b63e369cbefe9b5822da",
+      "reused_from": "data/source/en-Q125928-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Climate_change/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:37.095113+00:00",
+      "file": "data/source-v2/en-Q125928-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "66dc7278d8fdff4328143ef669f277b56593da0ef1a8007d9f4687be280fe18c",
+      "stored_sha256": "f5b3a437bcd61b43ba75afeca649336056ba5521717838e474d0a052446c6bf7",
+      "reused_from": "data/source/en-Q125928-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Climate_change/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:37.320140+00:00",
+      "file": "data/source-v2/en-Q125928-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "a0ca780760e5d6ab9d1efa0342e0dd0e29ec6acb0aba91038ff46530d5f061bf",
+      "stored_sha256": "430e399fb9a161c5795d22b9862460bd88c12e75e9c9ba0b203e3fd2dddb9405",
+      "reused_from": "data/source/en-Q125928-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Computer/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:48.410445+00:00",
+      "file": "data/source-v2/en-Q68-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "4d8c1619b91ca7967df91ca0b962ea1474b79b37f50d9d9b46ac3c997fdcd1f7",
+      "stored_sha256": "6d1249556e26922d45f1d70af4e0a890232507e05a95cca9fdd9e3d4efa26170"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Computer/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:48.672519+00:00",
+      "file": "data/source-v2/en-Q68-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "31f62d279240c8fd1f240b24515238d436fd528e27e5fe52d8216e8da0ee9351",
+      "stored_sha256": "b869ea0e4ae6afc949d2989979354e5cb9b476e72f8e82b29d9296cd43af4fd3"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Computer/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:48.881545+00:00",
+      "file": "data/source-v2/en-Q68-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "c6fc02eb05eaf7b3a372197d7f94792d3bd83ed0146dad5a787b9433bafe5bf5",
+      "stored_sha256": "88275acbf8a138b01a47161620ec8f9dfd8b6302cc84aeb87317e86a6b5fbc8d"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Computer/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:49.119005+00:00",
+      "file": "data/source-v2/en-Q68-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "e31184a6e359714dcd6d3b8478083f595a556aa50d40c9bdf390ccc3d35b9c04",
+      "stored_sha256": "e4bdf1dfed2c5d7a6c98272b528feb356a11a2c1f2d5f49ff2ec61b65ae0ddf8"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earth/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:37.541180+00:00",
+      "file": "data/source-v2/en-Q2-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "251d38f6094c4e188e002a4ae65e4e3029f0088079c0b05229dc6ec5ae8bef79",
+      "stored_sha256": "29cbc27076057d5191ef7727ad5676155bfc2dba7a5f00eec42a8ceff1212379",
+      "reused_from": "data/source/en-Q2-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earth/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:37.756389+00:00",
+      "file": "data/source-v2/en-Q2-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "8b6cae89bca36891c845591fbe3b11d9d7a7cb25e264e99ca4b5bc57663c740f",
+      "stored_sha256": "b19c6ed4f469560898bba4521c75ec4299a5943d517d3fa035477457a5c8a342",
+      "reused_from": "data/source/en-Q2-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earth/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:37.975981+00:00",
+      "file": "data/source-v2/en-Q2-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "30f85c881004ccc17cac1b56fe3d088229955749058c66ee06ab9ac5e09cd792",
+      "stored_sha256": "550624c79bd2f99c3d20885294ebc920761d55bb75e782c16511fc49a7fbe386",
+      "reused_from": "data/source/en-Q2-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earth/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:38.189013+00:00",
+      "file": "data/source-v2/en-Q2-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "f4f2b85968fdbfb9eb039de6173120d670222b43dcf8ae4e241773fe9bed312c",
+      "stored_sha256": "c1395da20ada01bf7c6f205be925667e96189cdcba27f0cf1e8beb4027b18c83",
+      "reused_from": "data/source/en-Q2-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earthquake/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:38.407782+00:00",
+      "file": "data/source-v2/en-Q7944-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "723f5a8d1692152f060c74c986d5c6b34099c848c45505876f87937e6e07c958",
+      "stored_sha256": "97ca767c4218a55bc266c728c725a94cbff1eb03cb3bb8e959560431e8f98592",
+      "reused_from": "data/source/en-Q7944-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earthquake/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:38.613088+00:00",
+      "file": "data/source-v2/en-Q7944-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "a455ecb6b73ed6339b87a2d17fb15c721624554fbee273b2db8d1ba3f15763cf",
+      "stored_sha256": "3bedacbd819ca36f0078505d2a194a1cb01d480bdf6c4c8a50482fd6e100d2bb",
+      "reused_from": "data/source/en-Q7944-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earthquake/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:38.832340+00:00",
+      "file": "data/source-v2/en-Q7944-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "023b87b666e00b67338031d6cbbf13c4feb7ca5bd591686256ba956d51e5c193",
+      "stored_sha256": "0398cb2b50fef3c19ec99504f7af3e1915f6fd0ff3e1457ebc5c0b488d2efba2",
+      "reused_from": "data/source/en-Q7944-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Earthquake/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:39.044726+00:00",
+      "file": "data/source-v2/en-Q7944-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "e95ee679c6ef7b820e63edd13faf66a49b7171fba043ceb3dd8ae0055aa43626",
+      "stored_sha256": "60a86e1c92d8f100f96c8eaf1e1162b205f2477ace45022b24ec56a5ecc1cb5d",
+      "reused_from": "data/source/en-Q7944-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Machine_learning/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:39.275416+00:00",
+      "file": "data/source-v2/en-Q2539-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "915baf46be4ade74ed749ffe1c1864add100caa35dd768d4ca112c8b93ba27f7",
+      "stored_sha256": "b7682c0d7396e90233fe8e57034230eda1694f781540e607978a38f19c76b8dd",
+      "reused_from": "data/source/en-Q2539-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Machine_learning/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:39.480292+00:00",
+      "file": "data/source-v2/en-Q2539-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "073d09b82215d51d4a92dc8c590f9fb56cc765d0201e6d77f1877cdad715caa6",
+      "stored_sha256": "09d0f0eab153563e9286d4fd7427b8b2a0533a32ba6ad5ba33459358ad715e47",
+      "reused_from": "data/source/en-Q2539-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Machine_learning/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:39.694316+00:00",
+      "file": "data/source-v2/en-Q2539-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "e034bbbe130d95f2d80609e36cdad49e14bd7adf8b1bdb02754a7694ed92fd04",
+      "stored_sha256": "83a5a6bae9842f1e87c269264a8ceff7f659e9c71ddcda8f2be30d527c94dfa1",
+      "reused_from": "data/source/en-Q2539-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Machine_learning/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:39.927893+00:00",
+      "file": "data/source-v2/en-Q2539-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "c6f00c025eb05afc9cb924d17358d908e2d9061e5957b1926a7324510ab01b19",
+      "stored_sha256": "d6e12dc58c9470804ec663d09ffc6d4cdb523d8e5c2b62d8e8c68b9e62d1e8aa",
+      "reused_from": "data/source/en-Q2539-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Mars/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:40.142101+00:00",
+      "file": "data/source-v2/en-Q111-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "c3aca7377cacd9a2db841911d18b740676bab3c13c142aba4ecd21b462dc41b7",
+      "stored_sha256": "aa2ce063d9bcb5c4c3d73b2d4f54dfe0654962417feff8d1f3ac81147d50208d",
+      "reused_from": "data/source/en-Q111-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Mars/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:40.349847+00:00",
+      "file": "data/source-v2/en-Q111-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "bb6af39f1a301f629e6714b7158c4a42d116aae89d52c3e5e3f3ff831d37e4cc",
+      "stored_sha256": "b37b376f85eb90802af5b2873662629f39a95f00924630179484cdcdb30d62a8",
+      "reused_from": "data/source/en-Q111-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Mars/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:40.574847+00:00",
+      "file": "data/source-v2/en-Q111-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "7cffd5b92e887b66fe19c873f90f84b8f6e75ad1a6ca229d946f746eaa348ae3",
+      "stored_sha256": "3935a477ade543197da259a61e7087dc5ae1648dfe5fa85c6bb4b461d5cd4109",
+      "reused_from": "data/source/en-Q111-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Mars/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:40.796516+00:00",
+      "file": "data/source-v2/en-Q111-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "52385ed3aff6b12e6199bba832210270f79f1af1a3ad8388a44aeef652a85117",
+      "stored_sha256": "5f61437f1900f2367c2bd6c19cad5c5eb144fc2b00bd6c7f8aa95d4cbe6da525",
+      "reused_from": "data/source/en-Q111-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Moon/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:41.003755+00:00",
+      "file": "data/source-v2/en-Q405-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "f741ad4b7873bb358222f12351fcaf2b2d1bac7761d0255e49cf62c51bedd5af",
+      "stored_sha256": "3cd44b1dd2e252ef41e068ed7bb88c10cb9c6250d945accf77670640cb37969c",
+      "reused_from": "data/source/en-Q405-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Moon/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:41.216583+00:00",
+      "file": "data/source-v2/en-Q405-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "ddb23a567d621b0307ba5e9ff681fe52681fdbe41188eee4c258c6338a685081",
+      "stored_sha256": "ac8bf9ac7e3b9d79e66c0533e6fb21c21f99727eedb1acad012e4edcabeb0fe7",
+      "reused_from": "data/source/en-Q405-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Moon/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:41.435625+00:00",
+      "file": "data/source-v2/en-Q405-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "5ffacb212da71ae94b7482f04276b0c6b462c09e4dd7d8b9b0b888305291b3cd",
+      "stored_sha256": "f3570f5906e1ad499209aaab54c9ae5e9152e1aae24217cf712e2a6801bd988b",
+      "reused_from": "data/source/en-Q405-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Moon/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:41.660767+00:00",
+      "file": "data/source-v2/en-Q405-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "30d4fa685949f66921428446796f324d2c07cbeb39638c8851927006a2e02328",
+      "stored_sha256": "e7db62d77d2c33c268293e2d5c958561c9eaafe32890111337d4551cf43f4245",
+      "reused_from": "data/source/en-Q405-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Music/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:49.350042+00:00",
+      "file": "data/source-v2/en-Q638-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "f45dc5054f5705ede5d476d7eb2750d4f5b06e3ed80d843786514104afa8df27",
+      "stored_sha256": "0c5972bd46e4f5c937405b8380668b7697d7c1046521fd643601f438c8e59da8"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Music/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:49.577969+00:00",
+      "file": "data/source-v2/en-Q638-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "55d489fc576ad157de290451541e123104b8de9cdcdb7eb965383d60a3ce6c84",
+      "stored_sha256": "8772e9fd4fdc65cc49e1785141e30c6be3bd74d3531270a3758ab20050e1f905"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Music/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:49.791994+00:00",
+      "file": "data/source-v2/en-Q638-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "210bf0dbe4976f34ef83747c49dd898f1f1e8c432a560046a02e51db944f2701",
+      "stored_sha256": "dcf81fc4811a93b7ec1dbee7c9173a8d9ae201bfd1887b9b98af08be6129bb3b"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Music/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:50.007033+00:00",
+      "file": "data/source-v2/en-Q638-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "866baffa125bf1f595e07086e11dfa1a1f4b8c352c3fc584d43d30081ed6eefa",
+      "stored_sha256": "3ff0b41137e75a32e4a618fdced2ac5d7f6f4f2dfa0a3a7f5828a2b435558d9c"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Olympic_Games/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:41.868379+00:00",
+      "file": "data/source-v2/en-Q5389-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "259e142b729b9072c25c666ab09e4572f73e43d4d737fae32d8b5e3cd8825438",
+      "stored_sha256": "b63e0f3e299582c6e7e03db2dd0e3351edb13944d40bf1a09d618d672d813413",
+      "reused_from": "data/source/en-Q5389-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Olympic_Games/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:42.079414+00:00",
+      "file": "data/source-v2/en-Q5389-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "908235d92e1f93ef61ab65185ac697d55d38925121c7942506e22421bcdd5e99",
+      "stored_sha256": "fed96f84a01486f023bba460184b83b68deba41eb61ab3862cef61f3a76138f5",
+      "reused_from": "data/source/en-Q5389-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Olympic_Games/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:42.284255+00:00",
+      "file": "data/source-v2/en-Q5389-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "026f21367fb368a45d02ae2c1d1e2bf69b56464f750bed3d09e4c2f435ae486f",
+      "stored_sha256": "8257608d47c07dc0358113158f8cb4d90cd4931ba6bfabfc4b91b3253e8c144e",
+      "reused_from": "data/source/en-Q5389-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Olympic_Games/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:42.523186+00:00",
+      "file": "data/source-v2/en-Q5389-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "cd995eba59a962ea22e5cbdad346b4a29e653e7e0cc988db75511f33925f7778",
+      "stored_sha256": "7d8bd8c24f0789be7ef813faf7e4d25afe23534d6e9439d76e5937e5611809cb",
+      "reused_from": "data/source/en-Q5389-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Photosynthesis/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:50.232584+00:00",
+      "file": "data/source-v2/en-Q11982-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "fb7648343fc3dda761999897105593d9d5cf45fc3556d6737097b8ac7b4f6b0b",
+      "stored_sha256": "379f8d0c7dc02de5f4ce13bd66fc33c44897468b22b7a04f15c188641d3f119e"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Photosynthesis/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:50.447791+00:00",
+      "file": "data/source-v2/en-Q11982-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "82a4235ff811eb87425aaa39ef94e16df67e2141deb38ea5b8dbf58eebbafef3",
+      "stored_sha256": "a8d350978f195a06eef7ff8b06892785c0113dc2dc596ce83ddd8a66d7ae9e0a"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Photosynthesis/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:50.668836+00:00",
+      "file": "data/source-v2/en-Q11982-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "bd6f97f8bf0148dd232d4bd2d6d123993ba97124016bbc7d4af701370afebc28",
+      "stored_sha256": "af513cb16be1d2089f88ed2c675c090ddc09ceacdc04d29f4e98b0654b143be9"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Photosynthesis/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:50.891876+00:00",
+      "file": "data/source-v2/en-Q11982-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "c4e7d1a0183e9bfb89faef12a49c6a89615192cdb0e572aee9dc9c85751af6bd",
+      "stored_sha256": "771d19adab5754145abe866c55db059bf8ba8aa441f0378a1a7cca185905eb58"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Solar_eclipse/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:42.732759+00:00",
+      "file": "data/source-v2/en-Q3887-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "02690e36f74d8d08fe701b5384ebb27b9e173af6ed50f484b675167abf917597",
+      "stored_sha256": "ab50f5749f87e4d061f0011fb7c791c907996c08c9f5acb800acfe73b62f1102",
+      "reused_from": "data/source/en-Q3887-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Solar_eclipse/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:42.945822+00:00",
+      "file": "data/source-v2/en-Q3887-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "63b58ed0b9228dafb36caa2da11eb97c1cd4fe2111662c3bcfd3cb01554fb546",
+      "stored_sha256": "11b920028f2bd70ffdd9c508c0596d43214c776babe0e1b83cbe69a8f22c3f38",
+      "reused_from": "data/source/en-Q3887-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Solar_eclipse/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:43.171671+00:00",
+      "file": "data/source-v2/en-Q3887-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "fa922e0e0a386acc407394d282e394630f296b75d9ee71417671113c8bc565e6",
+      "stored_sha256": "706aa9299aa7346340607f32099ed2f338b1abcad5a1a04db93e0a2dec062477",
+      "reused_from": "data/source/en-Q3887-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Solar_eclipse/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:43.384804+00:00",
+      "file": "data/source-v2/en-Q3887-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "d6fe5e4624d9ded28769c4a739346685089b18cba9e86e103db6af145a16b5e7",
+      "stored_sha256": "da1848362ac666c4b11cd4472dcb0ddd09c46d8d0bfb440a0590a0ee9b39f085",
+      "reused_from": "data/source/en-Q3887-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Sun/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:43.621841+00:00",
+      "file": "data/source-v2/en-Q525-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "0299b1a70718578262bfa0b7708ad79bcd03b1f5a4e17bc07f27c7d36369b54b",
+      "stored_sha256": "70b417c6442bad6d69254c12db7929f45b644ac004e62ca8729af59b74208023",
+      "reused_from": "data/source/en-Q525-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Sun/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:43.835867+00:00",
+      "file": "data/source-v2/en-Q525-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "822232bc4273e9f11a1b87f6d2c8c8c0fadcf0f00d0344f84906c94891c25139",
+      "stored_sha256": "b2d5427045a358bb691ca807237df1e79e1843b44ca56ac80f6902230941015d",
+      "reused_from": "data/source/en-Q525-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Sun/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:44.043905+00:00",
+      "file": "data/source-v2/en-Q525-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "1dbb5329be9e114b57529c93933371c8245c1f8ec8744c0b03966e8dd7de2699",
+      "stored_sha256": "47b294b723083a5b89951411f8c97bdf6529c5f09da43aeef6d32d1a8d4adfed",
+      "reused_from": "data/source/en-Q525-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Sun/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:44.294086+00:00",
+      "file": "data/source-v2/en-Q525-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "7725c303df00b2ac423df842d8b0985e759e8f1c967e80f51f0357b0af125bae",
+      "stored_sha256": "5b64b2f9667d0b2aa14ff322724ef32ba73f1ec0539b40fc9d729b1edfb1f439",
+      "reused_from": "data/source/en-Q525-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Tsunami/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:44.513130+00:00",
+      "file": "data/source-v2/en-Q8070-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "fee640574fb2d99316c89c7997618bebd6bde71562df48a7da5f3fff26a7f70c",
+      "stored_sha256": "c18e5256c729f67dede10561dc03933d6fbbbcddc0663d502a8c6e79441993fd",
+      "reused_from": "data/source/en-Q8070-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Tsunami/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:44.722192+00:00",
+      "file": "data/source-v2/en-Q8070-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "6429cfe953122a87be127e730deb665cef57cf95379255a30d829d9e10ed1fc6",
+      "stored_sha256": "a292c6c458c75a7fc46c7dedc863c0e46127ce316bb9a351ace084cb0c2a5b70",
+      "reused_from": "data/source/en-Q8070-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Tsunami/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:44.931219+00:00",
+      "file": "data/source-v2/en-Q8070-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "6bb6007dc2c0fc86becd6d3ad4d577b282187f283ef4aafc61c95277f5afdcea",
+      "stored_sha256": "98b60bad6efcd15f8885a43bd06ea1cf3db68d048d21d6dd434244298f43c5b0",
+      "reused_from": "data/source/en-Q8070-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Tsunami/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:45.156974+00:00",
+      "file": "data/source-v2/en-Q8070-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "cf7ddcc21953324476c5da4fa5203c59d16e2abc5f565009bd9a7c344439e519",
+      "stored_sha256": "c507296dfbc7ec25af46b576933c77a7d2ad1e6b1de7826287e89cc3d12ea34c",
+      "reused_from": "data/source/en-Q8070-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Volcano/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:45.360020+00:00",
+      "file": "data/source-v2/en-Q8072-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "1d83299365064a1330f01687beaed7b2ea0fdcaf9abb0e68e2753e0504e6551e",
+      "stored_sha256": "32d234ff5a2c7fe2cce102ddf25de13d901e8dddff234e34aab22e74c29a5e8c",
+      "reused_from": "data/source/en-Q8072-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Volcano/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:45.564011+00:00",
+      "file": "data/source-v2/en-Q8072-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "6aeebe81e7446c075048077551655ead673327006e2b36805d473e4b05c7653d",
+      "stored_sha256": "e81cbfa415b1680a65669948e0cdffdf8b10f35299c240b1bad2485bcfe1c9c7",
+      "reused_from": "data/source/en-Q8072-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Volcano/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:45.782048+00:00",
+      "file": "data/source-v2/en-Q8072-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "22b344140c8f0544f64b037008f9dfc014f893df794aa0eaf895476c9a1378b7",
+      "stored_sha256": "9b2fc79c4c7622ed348d8ecd7eb73f81d38570322b94319e11382cd28c348349",
+      "reused_from": "data/source/en-Q8072-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Volcano/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:45.979816+00:00",
+      "file": "data/source-v2/en-Q8072-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "88d0f5370de7f92d5625e493bbbac4ff3cfbf95124c5b250624d33fc1321ca70",
+      "stored_sha256": "607e1295d923bb58b5604b7e54c0aa6c83e8eec773e9a31185a37d4ac6ae5576",
+      "reused_from": "data/source/en-Q8072-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Water/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:51.128345+00:00",
+      "file": "data/source-v2/en-Q283-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "9f8131f8a03007c33aaad6633c72f1dabb0753013bc7343c17ea1bad11da5b8d",
+      "stored_sha256": "a55546cc985114db0962528e36b29ad3c4c4b80564a2eb877f74dc41646d7f80"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Water/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:51.338394+00:00",
+      "file": "data/source-v2/en-Q283-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "dbdf49aa1b1ad31a36219926591a718895a05b6ffa47ab649921f1f51167df4f",
+      "stored_sha256": "1663c688b227e3c62b5fa62a33deea0c688914063df34ea19cfd2433d793e415"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Water/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:51.551421+00:00",
+      "file": "data/source-v2/en-Q283-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "2738e94685215c790457ff78be389c7b59da8450cf49cde60369de471a0d4a4d",
+      "stored_sha256": "5e344bbed3a4d83e1a876ccb19a4ca3dc78a24540618d505e2adb856d83a235b"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Water/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:51.773509+00:00",
+      "file": "data/source-v2/en-Q283-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "ee8d914495993b34110a0406eec6f134085d4bc46fb4adafa938636916ddfd51",
+      "stored_sha256": "c4bbe61142fc7db7cbd3d246b4cf89bbb2401c2cc1956826d938e25308ce13d3"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Inteligencia_artificial/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:46.200159+00:00",
+      "file": "data/source-v2/es-Q11660-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "9cd1439e9707afa99f4249f8efb50928d5a8576001d294b21bd005dc88241292",
+      "stored_sha256": "920c051d4f331bc920b42add45e25708b797cdcabbcc18fbef6cc6685ec2a755",
+      "reused_from": "data/source/es-Q11660-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Inteligencia_artificial/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:46.405339+00:00",
+      "file": "data/source-v2/es-Q11660-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "0fb5da68ad8046ec9469259287640b097b8fae1fc5bd032e23b1537800ceb35a",
+      "stored_sha256": "c93813a397de30ac0c8f105f2b846333a1c48420501382fd7788520d7c95ba59",
+      "reused_from": "data/source/es-Q11660-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Inteligencia_artificial/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:46.619376+00:00",
+      "file": "data/source-v2/es-Q11660-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "73b5eef7543bc9170f7804dcd8184286c4c772940e44f829af17965856b92d4f",
+      "stored_sha256": "0bd7e6f48e943d73f3635d92246549024abdd638288df72fbfa0c15dd93dc0c1",
+      "reused_from": "data/source/es-Q11660-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Inteligencia_artificial/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:46.833389+00:00",
+      "file": "data/source-v2/es-Q11660-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "fee4ddaa7a77fc6208d814439157c25fa5facd3f39260bc85017db9529982e8c",
+      "stored_sha256": "155498decd500aa47f5e1cfdf119a1fded86c7f2efb8819cff9f3e104e5d56b6",
+      "reused_from": "data/source/es-Q11660-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Cambio_clim%C3%A1tico_global/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:47.063077+00:00",
+      "file": "data/source-v2/es-Q125928-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "4c9b9608855f1bc1b989ea42a321a0a7125fb78cb3b0860f61a26844971b051f",
+      "stored_sha256": "08b43e4c780ddf60b453922137750a66a67ebc5bdbf92e8ef88524698d69f41c",
+      "reused_from": "data/source/es-Q125928-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Cambio_clim%C3%A1tico_global/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:47.251585+00:00",
+      "file": "data/source-v2/es-Q125928-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "e3f4d2672b68d9d754ea86fb618db358c9dc043cb2123f8d9de95c8e0c093564",
+      "stored_sha256": "a40ab1e5f0f69ac28647c9ae46b0373fbb7d292389119bad520c0fa6f9ec0a08",
+      "reused_from": "data/source/es-Q125928-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Cambio_clim%C3%A1tico_global/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:47.435620+00:00",
+      "file": "data/source-v2/es-Q125928-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "93ef5078e52ac8ad191611383a68d0bb1f35d33ddb719c9ceffa1757b51dcc92",
+      "stored_sha256": "9372198143f0b184ade286a0762020b2f355989443af1d719955a2a353e26d9e",
+      "reused_from": "data/source/es-Q125928-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Cambio_clim%C3%A1tico_global/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:47.617667+00:00",
+      "file": "data/source-v2/es-Q125928-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "e045b741dc8f0c96478a701de77b7e162c66d2478d65bc00a31544fe79d1445c",
+      "stored_sha256": "e05df7cb43ebf4d20c7ebca64d4d03be6ed86b94cd343be14546aab458075377",
+      "reused_from": "data/source/es-Q125928-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Computadora/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:51.988534+00:00",
+      "file": "data/source-v2/es-Q68-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "4d8ffb139281298ced670ff0250b20f83253843c26ad80879413784415f4d570",
+      "stored_sha256": "4ae60aa26fb323788e8099c6b7ef0280c9a5cfe25bb0e4ca0a87d25f6d367024"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Computadora/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:52.196576+00:00",
+      "file": "data/source-v2/es-Q68-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "fa68797287d958b955556355b169e051ffe143ccd841fd726e2235b96e6c2db7",
+      "stored_sha256": "3b569bade397d8c57fcaf209c73d46f499acb1e3a2e580a30d0f9fbd410f1a21"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Computadora/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:52.412097+00:00",
+      "file": "data/source-v2/es-Q68-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "c9624b0d9e504c2c37cfb169e38c842154b6c6bede127fb00c7eaf8ebe6ff118",
+      "stored_sha256": "2d2b8a28012f55a834922b7e66c2ee16d07fa0e1753268b7f0c5721ccf964cb8"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Computadora/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:52.618643+00:00",
+      "file": "data/source-v2/es-Q68-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "70b2a147d048f3da419fe43aa19c4b65f7c39d6f0142615a1e1ce8f9b21087e4",
+      "stored_sha256": "acc0424ac483b63fe3602fb5268cb3fb483fd224ff44c94d8e62e7f8c30c6564"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tierra/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:47.782697+00:00",
+      "file": "data/source-v2/es-Q2-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "5edb67f5a8fa4d98c6cb54b8808acde89465fa9aaf645f10af7a63c229ef5724",
+      "stored_sha256": "06176aca3dbfe0a8c522120824ae36562fad1befbe4fc2efac46799a9a9e08b4",
+      "reused_from": "data/source/es-Q2-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tierra/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:47.986741+00:00",
+      "file": "data/source-v2/es-Q2-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "d886cf290a5ffb97bdd0f4e9a939b6f38d7dec900e96f385bd00505c668500e5",
+      "stored_sha256": "e358645229b64c28d320f490fcc895d7680fd6f6fee48519d78c9fe0a75fa895",
+      "reused_from": "data/source/es-Q2-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tierra/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:48.203774+00:00",
+      "file": "data/source-v2/es-Q2-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "216bc1648fcbe81101435d2c3ffe4fbb341e8ec5b77373aaabfc5a39e0a0cc8a",
+      "stored_sha256": "098d45eaa9f37d704ed05e6a858cb5cec336eba5fbe503194048865dfce476f7",
+      "reused_from": "data/source/es-Q2-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tierra/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:48.423817+00:00",
+      "file": "data/source-v2/es-Q2-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "0fd821eb0b7d13c5202b7aeb97f48c1f12d86f475cc8097c11e3616a864e321a",
+      "stored_sha256": "0b729035bf583967e3a6c821a84b2819a639ac1ee6d45e3d7efa28f6a3d421ee",
+      "reused_from": "data/source/es-Q2-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Terremoto/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:48.635868+00:00",
+      "file": "data/source-v2/es-Q7944-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "687ad0bce2b13a2549421d9eba9f20a82131e3e5dbdd626a422d2f6478953824",
+      "stored_sha256": "5255069087e301d609339e543ddd93daca4bc429e0d2bb06b890abec4cf59d3d",
+      "reused_from": "data/source/es-Q7944-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Terremoto/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:48.841901+00:00",
+      "file": "data/source-v2/es-Q7944-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "0671c1a6fa8c548a114db14ddf379652981e5e8b2c274e20e758ae831e7524db",
+      "stored_sha256": "12b216763a15ee14c28d2258175c6550858d3056f95721b5f5e31fbfd4577070",
+      "reused_from": "data/source/es-Q7944-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Terremoto/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:49.045038+00:00",
+      "file": "data/source-v2/es-Q7944-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "7414f109bc1a9ae951c149d6918d5ec9b1303458969bae1b9fcd49f0a371c7e7",
+      "stored_sha256": "024e102676732ab6f9262c50ba671735f94caa94ea71473e3d21c16411d529be",
+      "reused_from": "data/source/es-Q7944-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Terremoto/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:49.267290+00:00",
+      "file": "data/source-v2/es-Q7944-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "694bbf0613e26ccb7437398c57183573038d172ef65ac5a51e695296fbff5898",
+      "stored_sha256": "8317ff741a603c582e83669b28b2f50f04fc08e7fabb5a82b22063dca3cccc7b",
+      "reused_from": "data/source/es-Q7944-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Aprendizaje_autom%C3%A1tico/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:49.471315+00:00",
+      "file": "data/source-v2/es-Q2539-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "200b29ba418fb1edb35fc6664163e58dbbd7713d48f75e1094bc6f47b3d3c4c0",
+      "stored_sha256": "3f59c095773c80b922325bfee7f213af3d2e3cc3950e9b9f78fd508bc37ec2f9",
+      "reused_from": "data/source/es-Q2539-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Aprendizaje_autom%C3%A1tico/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:49.681342+00:00",
+      "file": "data/source-v2/es-Q2539-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "b043dd14b97ab6c0b2ae6fb70913221c83f969625cd44ca60c00c40b079b7813",
+      "stored_sha256": "bcba34152f09ad6b22b8375735ccce153ea96cd301f7c59ee081861c629d50dc",
+      "reused_from": "data/source/es-Q2539-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Aprendizaje_autom%C3%A1tico/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:49.889379+00:00",
+      "file": "data/source-v2/es-Q2539-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "e9286faf74aa49f539d4b3b04386603d4960ec32d16d6af9dd5ca81c513a8e9c",
+      "stored_sha256": "6563e1299a811278a9f75f2570cb5533d3e264ca59d1685ae37e18eaeb3b9bc7",
+      "reused_from": "data/source/es-Q2539-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Aprendizaje_autom%C3%A1tico/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:50.100350+00:00",
+      "file": "data/source-v2/es-Q2539-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "c7d07eeab5f6d47619fe051d3bdb86a9424346fe2896e64f333a3b982911cf8e",
+      "stored_sha256": "ecf444b45747277595db02ddce5277a365b931993f663d90de1d96d76ffaf85d",
+      "reused_from": "data/source/es-Q2539-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Marte_%28planeta%29/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:50.314380+00:00",
+      "file": "data/source-v2/es-Q111-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "87546acff3205faaf11bc8670c5aa87f56402852c0d6beb6c5eca1d33b58ed6f",
+      "stored_sha256": "011239c0dc8394b34b06959043dcafafa163198be43bea9ed2f37cfe9b9d0cb1",
+      "reused_from": "data/source/es-Q111-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Marte_%28planeta%29/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:50.544932+00:00",
+      "file": "data/source-v2/es-Q111-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "02ab9aa1704666ebf990c3659bcf68a457a655240f4e34b6e939ca14a1ff631c",
+      "stored_sha256": "8f4dbad96d2851a17d11a8ff1e92ea9c135683c523c67a4d0af70f51e300da03",
+      "reused_from": "data/source/es-Q111-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Marte_%28planeta%29/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:50.756470+00:00",
+      "file": "data/source-v2/es-Q111-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "cf007ff1f1afed0beffd2802096da9b3187acd7b9b102ebf6173d3981fa05d24",
+      "stored_sha256": "5e9de3d95fd934b3dbafeae3a0d624b8069ab126e281b6512468c9492c84d9af",
+      "reused_from": "data/source/es-Q111-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Marte_%28planeta%29/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:50.975523+00:00",
+      "file": "data/source-v2/es-Q111-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "d710b54dd414fff2fc2a195b3b39efdb2672c242ae4c992f09bcfa26d8723d6d",
+      "stored_sha256": "74b13d62122df0995087109171d3aa33d7b8e335b5384a065603dbeae3f5f542",
+      "reused_from": "data/source/es-Q111-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Luna/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:51.198202+00:00",
+      "file": "data/source-v2/es-Q405-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "535dacaed4a532f8beedcfbd9d0997bee767d4925fb3596f3f9f35f266c0bc8e",
+      "stored_sha256": "1bd8a09f9b23dba59f12e2b722adfe5ec9b59a4269427ed02085412d933f0f31",
+      "reused_from": "data/source/es-Q405-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Luna/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:51.405247+00:00",
+      "file": "data/source-v2/es-Q405-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "e15bcc55992299e71d8291e45439032d0d791c38bab378ee196f4da0ceaf4f77",
+      "stored_sha256": "1687253f9f06d27bf19457b8495cb32c5acf409c8972d478c7884f02941e7ed7",
+      "reused_from": "data/source/es-Q405-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Luna/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:51.616284+00:00",
+      "file": "data/source-v2/es-Q405-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "650b7d2db2b34615605767b81dd53f2b44f92a9ed70266b60341abd4476d39e4",
+      "stored_sha256": "192e9707a97b2224e37e28466da045a45875500919dc594eab822e35f08f5ca2",
+      "reused_from": "data/source/es-Q405-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Luna/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:51.826334+00:00",
+      "file": "data/source-v2/es-Q405-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "9d9186bc5a24d530f2f84517a247d16135332d1b1903e58a8c50deeaf56d212c",
+      "stored_sha256": "88260dd483f700784f013056aeb07a208b258813556f340671ee6b26830dccbd",
+      "reused_from": "data/source/es-Q405-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/M%C3%BAsica/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:52.845679+00:00",
+      "file": "data/source-v2/es-Q638-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "f562906514340c9846f81585a0f1e32a2813b854904b264c645e73d36685e4ae",
+      "stored_sha256": "2af63b0b6c2551d45eb602f4f79988da67bb0867ecb36221895c52babdbbf00d"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/M%C3%BAsica/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:53.059824+00:00",
+      "file": "data/source-v2/es-Q638-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "2cf3c770f18cefc2fc536316fa50aa906fec56dd413e9c69ab508da8e298adb5",
+      "stored_sha256": "697abee4203ff2713efbfc76388b300638e32d0aab65397c753f8e29ee2e8452"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/M%C3%BAsica/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:53.277859+00:00",
+      "file": "data/source-v2/es-Q638-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "547a3fded4ffb522f512d40f32c79911023377ac0e4db609fb28905d38a047db",
+      "stored_sha256": "f87e0b62f03919db1b3f66eaec8b8cdc04193d7e9b2175d9677b449fd6bc4af7"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/M%C3%BAsica/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:53.492885+00:00",
+      "file": "data/source-v2/es-Q638-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "ded74bd842b5dbc18ccaf8606425f3315c005872615a79b00de03f8388e08352",
+      "stored_sha256": "d899f973c3d793fc70b7e0342a0d53eacc4379788d2acf320ef3c0ace2b43103"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Juegos_Ol%C3%ADmpicos/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:52.036046+00:00",
+      "file": "data/source-v2/es-Q5389-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "3e1e3aecb02f991a2c292dfab9a101a39f3b8fc28d82b4b2b1fccf004881a277",
+      "stored_sha256": "0f4ca70f7cf681949279737f45899a9717b6dcb06a9b3f996c360c4f2f8f980a",
+      "reused_from": "data/source/es-Q5389-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Juegos_Ol%C3%ADmpicos/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:52.250352+00:00",
+      "file": "data/source-v2/es-Q5389-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "cb88a218c7e360d7d6de68f04098e8f3f738ff50b98a684e3f82e899c4b75b30",
+      "stored_sha256": "bede4c6ae56c025857900af3f3ea22ffd6482924ca5e4cac29b1757999b3f79a",
+      "reused_from": "data/source/es-Q5389-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Juegos_Ol%C3%ADmpicos/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:52.460750+00:00",
+      "file": "data/source-v2/es-Q5389-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "3cd025c6c78e86ebf1d20b1ed1b4ecdce802d24c00956357c36a247ac298de7b",
+      "stored_sha256": "00b7978fb158ac356a5e8e92f82db5c42cd44f2f67fda4626288ea2df4294138",
+      "reused_from": "data/source/es-Q5389-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Juegos_Ol%C3%ADmpicos/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:52.681803+00:00",
+      "file": "data/source-v2/es-Q5389-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "812e897fa760c2074879292d7e2bb0b9980b1756e18b6c8637aab7e923a44462",
+      "stored_sha256": "0d92c3d0a48239db21b0c7094d7775fe4b3497593cb25e8156907385f3994b73",
+      "reused_from": "data/source/es-Q5389-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Fotos%C3%ADntesis/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:53.716436+00:00",
+      "file": "data/source-v2/es-Q11982-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "90dabd6211a53a4df7b560507230e55256f79235d75b74389a6b1f65ffc2b37a",
+      "stored_sha256": "2d20205a3bd93abc0d27836ed4182542cab8fd34070c2bb697ceb6729149e1e5"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Fotos%C3%ADntesis/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:53.947255+00:00",
+      "file": "data/source-v2/es-Q11982-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "9c474252bd3c7c11fc021976fa447230a1d010ca38dc90bbff0874484c453a47",
+      "stored_sha256": "86e6583b312200d6129786eaf4c5e416169c9f7730b192ce4b20734eb13cbfdb"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Fotos%C3%ADntesis/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:54.160921+00:00",
+      "file": "data/source-v2/es-Q11982-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "0652806f3d1ab871f3e32a74173cf6f92c46163c0337fac137b59ef796b16688",
+      "stored_sha256": "8db439ed40213a706e7b56b782b3a3bae76c13a1366babd3a5050f8d316c5a65"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Fotos%C3%ADntesis/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:54.387476+00:00",
+      "file": "data/source-v2/es-Q11982-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "79e5b1001944413025cb08c04642b20be2e919c8197fe38bab6157e28d1af339",
+      "stored_sha256": "95f3143424bf0f2e762c7da8c96d2003f620e91ee371c8ca0829d438e6e30ae5"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Eclipse_solar/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:52.887839+00:00",
+      "file": "data/source-v2/es-Q3887-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "0a72d6097c3126417d59fbaec6f4d183b0dde7a52c62afdafa0d67d7b152c769",
+      "stored_sha256": "7039de6ac14108491cb9b39dadf1d990c5666f1d52ab9df8ecf26570b3b2299d",
+      "reused_from": "data/source/es-Q3887-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Eclipse_solar/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:53.097208+00:00",
+      "file": "data/source-v2/es-Q3887-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "889058ef360f618254187ebd90a3cae1bff5290f77f96ee9fac64cc0bcbceebf",
+      "stored_sha256": "188ec50f41bb788c1856566ff2d66a1b53e786395dc1f5a403017ff1c0586264",
+      "reused_from": "data/source/es-Q3887-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Eclipse_solar/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:53.317234+00:00",
+      "file": "data/source-v2/es-Q3887-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "c2f07ce88392b537693a56607be43d98c1188c546f2c6785090db7974740f086",
+      "stored_sha256": "64faa6fce9d651856a6e5ee30f4e538c8b5531d08a65c4ef1472642597b89086",
+      "reused_from": "data/source/es-Q3887-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Eclipse_solar/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:53.531275+00:00",
+      "file": "data/source-v2/es-Q3887-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "9d0c24f0e2092014321f00ccac450dfb2b63c8080c3a645bd1b06963559b6afd",
+      "stored_sha256": "9d4fd23899ad14167fae01f031da3b498ce6619b64e990c656d861e6773de521",
+      "reused_from": "data/source/es-Q3887-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Sol/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:53.750337+00:00",
+      "file": "data/source-v2/es-Q525-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "5e5712cdbc613676fc20a8a4ab35e414c5640c925d6e10c9bba683a7d2999f7b",
+      "stored_sha256": "cdf7ddece493f50835fb2df1d4989f645057591412255133a80377ea63e69063",
+      "reused_from": "data/source/es-Q525-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Sol/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:53.967884+00:00",
+      "file": "data/source-v2/es-Q525-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "720a9f20af361a77ca25b645938500e79cfb172c872e10b19b0e552252a12d72",
+      "stored_sha256": "9306efdb2e5875baccd1b4192cd54943e6c2a1ed6b317ee84f7eab8c0774c84b",
+      "reused_from": "data/source/es-Q525-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Sol/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:54.197918+00:00",
+      "file": "data/source-v2/es-Q525-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "fc1d98d088a6e5f7b70d598fa0724df4c4a898275df43024ed49986467babeed",
+      "stored_sha256": "1aec592facc79f8233861bf6d2b744febe3558ba1384d0b130df095439e819e5",
+      "reused_from": "data/source/es-Q525-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Sol/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:54.437042+00:00",
+      "file": "data/source-v2/es-Q525-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "500eb64f769d7d45ab0e82b2a345e3932a7cd3fece638d28f2d4c097851a7fd2",
+      "stored_sha256": "fc7f9364b75645f55a73b805c26088a860f9259939b89f58124b5f0f2ae1d33d",
+      "reused_from": "data/source/es-Q525-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tsunami/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:54.670596+00:00",
+      "file": "data/source-v2/es-Q8070-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "d0c319428426ca03fcb9d688816bda7b2c6261e973b8aebba958532742843b54",
+      "stored_sha256": "c55565017c85cb8e157a9ff0c0782aead27598e125dbfa72d077c2eec9524a63",
+      "reused_from": "data/source/es-Q8070-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tsunami/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:54.890635+00:00",
+      "file": "data/source-v2/es-Q8070-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "6b0422488ef3a8cee20426d92bde338a9aa22ab99f6fe4fded3ee1e65847ec30",
+      "stored_sha256": "a4821637e7e57cb1ed5a90e0cad1924948e099fef6378c791d940f561d58bce0",
+      "reused_from": "data/source/es-Q8070-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tsunami/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:55.108842+00:00",
+      "file": "data/source-v2/es-Q8070-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "3935e9f1c1f56eb3b272653afde9614e7b1de0cb63b99bf2dbee86adfef04d1f",
+      "stored_sha256": "4ce1fa8e0a9c6d8a7a84a58465fc853a32711cc503588fdefd8f04ccecdca58f",
+      "reused_from": "data/source/es-Q8070-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Tsunami/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:55.322258+00:00",
+      "file": "data/source-v2/es-Q8070-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "b0d795c4005d2676f2412a4d5be4439f5189ffce236f9c6ba6c2658cf5d5c694",
+      "stored_sha256": "c7776355a73fc9073f52b1bceda0bcb542b13175a04323b00619a3241e95b82c",
+      "reused_from": "data/source/es-Q8070-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Volc%C3%A1n/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:55.539498+00:00",
+      "file": "data/source-v2/es-Q8072-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "0388258205fd06f607daa0784776ee334f1c3ddb7215309e82e5d1c432ccfa3a",
+      "stored_sha256": "15e6daa91196476869ed3da4d4577f0cc084c928da1717cb0952b47fe52dbfb3",
+      "reused_from": "data/source/es-Q8072-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Volc%C3%A1n/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:55.785059+00:00",
+      "file": "data/source-v2/es-Q8072-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "8c2d400dde35a6bca5328e454e7f9a03b2b5eccff9741ba8e5f0461910c47080",
+      "stored_sha256": "3bf6b9acb23837762f86716787662c714b3d1e8d86d81c9b6856152f4eb8e208",
+      "reused_from": "data/source/es-Q8072-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Volc%C3%A1n/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:56.007068+00:00",
+      "file": "data/source-v2/es-Q8072-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "c2a73efcc60c1be57002f761ac279873f7a593d2dd2031cec5fcbab168b43094",
+      "stored_sha256": "b7818950eff3bef69b5dfe7927b712941036047edf99dece5d1c1817fe0b8105",
+      "reused_from": "data/source/es-Q8072-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Volc%C3%A1n/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:56.234101+00:00",
+      "file": "data/source-v2/es-Q8072-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "898f42527b9251b8d5b3d42b557b8c5dfc2cacfe920cc5be2434a04024f0bb3d",
+      "stored_sha256": "b8f026457339698c5231530b0fdf64c30aa81442dc89bec5700d65d965652ba2",
+      "reused_from": "data/source/es-Q8072-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Agua/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:54.607513+00:00",
+      "file": "data/source-v2/es-Q283-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "ae8aac7392354215f71bd3deea1ca6160cb1a1fc696e1790c5be292017d59310",
+      "stored_sha256": "b1db67d11f1ecb9cc270eab92a78e67b90628a3ea028c3dcc89ff05d2fdc1332"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Agua/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:54.810422+00:00",
+      "file": "data/source-v2/es-Q283-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "9186672277928cc33fad8113155754da7657f98486d6e745a40117d17ba8967f",
+      "stored_sha256": "88406b72361576445681ff629ab0ccecc8dde645d8f68850da1071e3a77f8a90"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Agua/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:55.034481+00:00",
+      "file": "data/source-v2/es-Q283-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "231f2249b424d98ab53630ab54508102bd5582deadc363ea4d48c44e9ea6db8f",
+      "stored_sha256": "b36a76be38255632c157078a4603eaa389884c89ee6844b9fe645b2821188d14"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia.org/all-access/user/Agua/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:55.288523+00:00",
+      "file": "data/source-v2/es-Q283-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "1d1a8f4b0b0ff40aaca25548024c428aeae71da9063191e1a8d1074b5525aae8",
+      "stored_sha256": "7c4e65638e5cfdbfc284d3c9793c145288f20fc378dd5a7bf8dc7c36aca65715"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:56.449724+00:00",
+      "file": "data/source-v2/ja-Q11660-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "aee7b0026be13af71adb5bcdcdc4f7254959313c7c5c3648f90fbf62f8ef94ad",
+      "stored_sha256": "37773ad4387a86363c0d1a74392ae37479035c5c511b42a398d49880a26b586d",
+      "reused_from": "data/source/ja-Q11660-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:56.655754+00:00",
+      "file": "data/source-v2/ja-Q11660-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "5dee20745c3d3cf2914ef579cf10a3fb8979392eb1ed7a848c2eff00886c55d0",
+      "stored_sha256": "fdee9684b4f1852f95ecc0a5435e1a44fdcd52d118a5cf8ad2de9fef1e8df970",
+      "reused_from": "data/source/ja-Q11660-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:56.877333+00:00",
+      "file": "data/source-v2/ja-Q11660-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "ecbe77d865b0544cfe10f5f1ea5d74292f46f342877d867d82cc69bf27ee5d15",
+      "stored_sha256": "f442e2b50622ca84f3f8d4eb3c0f38d8f3c68bd3fcf610342a9d42deb146ce6a",
+      "reused_from": "data/source/ja-Q11660-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:57.097597+00:00",
+      "file": "data/source-v2/ja-Q11660-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "d9ebe3d96c94487ca58e9224e7a75133d81300b9b15311ae769b10042b574e5b",
+      "stored_sha256": "9b00578a81f599cc06160b279fb7fdbc02f893741e61cc610ae399f2f1024150",
+      "reused_from": "data/source/ja-Q11660-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%97%E5%80%99%E5%A4%89%E5%8B%95/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:57.301639+00:00",
+      "file": "data/source-v2/ja-Q125928-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "9b9d2bdcf4b68db7e18a67b383f9d28c670bfcc90f9ab882800c2d4802d32200",
+      "stored_sha256": "d9a776c0ee5680916258655ee11ecb1fb917fc0a4fdc27c9f831189d578c7de4",
+      "reused_from": "data/source/ja-Q125928-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%97%E5%80%99%E5%A4%89%E5%8B%95/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:57.499670+00:00",
+      "file": "data/source-v2/ja-Q125928-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "cd41a3b01efb81f36eb9c5d8d9c79d2f364ade7fcc0d515b3edad08509025faa",
+      "stored_sha256": "bdd730efe11f4b201492e490c595fb747be7a3d708a818a1b58fafb4fe7b36a4",
+      "reused_from": "data/source/ja-Q125928-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%97%E5%80%99%E5%A4%89%E5%8B%95/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:57.703700+00:00",
+      "file": "data/source-v2/ja-Q125928-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "47e97eb45c3be81507aaca9ae3646d4e90e9048a02cf17626899cd8241ec6979",
+      "stored_sha256": "95ebe7e55fee8ec303ad3506708424f8a267c643e51c23904f88d6e28531b547",
+      "reused_from": "data/source/ja-Q125928-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%97%E5%80%99%E5%A4%89%E5%8B%95/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:57.932743+00:00",
+      "file": "data/source-v2/ja-Q125928-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "048a31f3011e8dd33b1159b84515a223b4895bc554382d68c7f8fc89cfb416ea",
+      "stored_sha256": "6a64f1a44ef1e678ffb87bbc0c5c969d5071b1b518977c0efcac4389f92c6fdd",
+      "reused_from": "data/source/ja-Q125928-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:55.501275+00:00",
+      "file": "data/source-v2/ja-Q68-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "68cd081af0babed1ddf6593972ecccd1061847deaa02a7d7763740f6f970ec41",
+      "stored_sha256": "6a62c6a54eea08d25768e64ea51026df7c8be22ce4165cd51bf5c8bdaacef9ad"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:55.718827+00:00",
+      "file": "data/source-v2/ja-Q68-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "ca0a9cf450e609b3751fa1b3879e55eaaccaa57678f9b08430f94646512f8a68",
+      "stored_sha256": "a2b15df2dab8017146f32db1ef71dba34a90248512bb4509d6e324338f7b3ab7"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:55.917853+00:00",
+      "file": "data/source-v2/ja-Q68-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "c6b54db4a35ac814bc0eb061f6100b02c3ab771b2c05d7b83429b6ebccbb7597",
+      "stored_sha256": "2a90d3c43d82d94b80885f000eb65256b1ba598d1bff87a8b4779cce86793f46"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:56.130896+00:00",
+      "file": "data/source-v2/ja-Q68-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "71ad954da6c395ee93c9a47871d4d7a82bbf32f6f303210b2b7242fc9d81dcdc",
+      "stored_sha256": "34e67e204ccfe8157cf582256349b3c717c4d7968fef269b63b7a0e479d85103"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E7%90%83/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:58.146795+00:00",
+      "file": "data/source-v2/ja-Q2-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "7108125fe902f4e1ee5475ec8d5a9be8d0b530af4340b51a36612d33a0e5c49d",
+      "stored_sha256": "6e9db00e95091eca9b5d4f47005f3289a22690c33814b8f1a75d0be122a9aaba",
+      "reused_from": "data/source/ja-Q2-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E7%90%83/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:58.364856+00:00",
+      "file": "data/source-v2/ja-Q2-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "8991e74c9686330d060f5a4c843701381b416b24274ab5b6588bac91a06d2ab8",
+      "stored_sha256": "33c08bf99c71ecaeb1c5b23b10046fa597670cecc9e0ee8d17058d5b4d2e7f78",
+      "reused_from": "data/source/ja-Q2-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E7%90%83/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:58.581883+00:00",
+      "file": "data/source-v2/ja-Q2-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "59d23bf9cb53e34e5b50cb460b08d4b55fa0971cc70e2954602f6467f1ff1e99",
+      "stored_sha256": "91e4064899fc7eedddafe508830a1af0d65acae5619fa34e984e013ea1fa01c6",
+      "reused_from": "data/source/ja-Q2-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E7%90%83/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:58.789931+00:00",
+      "file": "data/source-v2/ja-Q2-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "98bd88d013514b7900a37913a490b288db95b61cfb9e2ec40c22aac151f8a35b",
+      "stored_sha256": "85466f5a75058d52705a217cd71b1b37425b08417b555ebf68790d9fce02f246",
+      "reused_from": "data/source/ja-Q2-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E9%9C%87/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:59.003048+00:00",
+      "file": "data/source-v2/ja-Q7944-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "eec58dbcc7f8394765ee0003e15c462e9b60c1f305aff3c85a3d4d7e379cc12f",
+      "stored_sha256": "ff94895c200a78418a5d1d5192143e70eb75dd5599e0c68018a61db3b86a6a7a",
+      "reused_from": "data/source/ja-Q7944-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E9%9C%87/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:55:59.203082+00:00",
+      "file": "data/source-v2/ja-Q7944-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "c98e3aa116c63186e4c71b4b8540d8635b20ec2359c77afb2220f8849e61762c",
+      "stored_sha256": "a8bd617c663ced97a7df272c71aeb2a4b7fbde073d031561ff8792abe5bbf58f",
+      "reused_from": "data/source/ja-Q7944-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E9%9C%87/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:55:59.425115+00:00",
+      "file": "data/source-v2/ja-Q7944-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "c8e9f6cd42b7e001a0e7d7b8f0c0bc610e1260a777d536084a7e5d75f387525e",
+      "stored_sha256": "d540b3647aca8631d45e062540192c12701bbf12a4422ede1c82cdbaf0bac956",
+      "reused_from": "data/source/ja-Q7944-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%9C%B0%E9%9C%87/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:55:59.635151+00:00",
+      "file": "data/source-v2/ja-Q7944-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "7f6db7ce8c686bec1f3f40ae5167703d6ee30976f0b31121ecc0090dcfb5e5a7",
+      "stored_sha256": "2f2a85608647b059aaf80393e32f840c1972d064100d97c3163db0cdfc84e7aa",
+      "reused_from": "data/source/ja-Q7944-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:55:59.840193+00:00",
+      "file": "data/source-v2/ja-Q2539-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "2dffb7cfced29382c9411418da23e0964f4bf809ffafa84e31be32731caf753b",
+      "stored_sha256": "9cccd3d59a042a73b3e3555b3419d229994e2a53c54313e588c70537e556db77",
+      "reused_from": "data/source/ja-Q2539-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:00.059247+00:00",
+      "file": "data/source-v2/ja-Q2539-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "100d23066ea46d5d506e972d18f89f963eb14b36cb3f53f8568dabd1e15b9ccc",
+      "stored_sha256": "de8ac31223093f48503a2d22a33ba1b45363dfe613d34f1896322adb760fafd8",
+      "reused_from": "data/source/ja-Q2539-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:00.279854+00:00",
+      "file": "data/source-v2/ja-Q2539-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "db376ab08e49b63d70240dc422f37453b2f9e5fc961f3e5f5ffaadc59118afa4",
+      "stored_sha256": "5a49e18268b451d50bbfd46a36aad5e59dc4e1a3b5a7fa47131dffc8b6491d5f",
+      "reused_from": "data/source/ja-Q2539-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:00.483039+00:00",
+      "file": "data/source-v2/ja-Q2539-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "2236d854a1047088ebae25d4ce8086c47acd947f335b0ee2fdb5684b2de16018",
+      "stored_sha256": "500abc3d6b236d2372b084883b8ef253b8fa1cf76cbd0857ee2c53585da37665",
+      "reused_from": "data/source/ja-Q2539-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E6%98%9F/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:00.712080+00:00",
+      "file": "data/source-v2/ja-Q111-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "be099abec07919035d64a29a221004567533d7979d1ac7d4345878d4bafeee56",
+      "stored_sha256": "42bddefd47300febeefb42385384030f676961241d40f9aa5575423e32597f43",
+      "reused_from": "data/source/ja-Q111-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E6%98%9F/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:00.935814+00:00",
+      "file": "data/source-v2/ja-Q111-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "72b68e34512f7cc5e1953fcde7e07380ac4cb94a113c6c44c71e7a9e2cbf20be",
+      "stored_sha256": "a3895444e23c30208a7de86d60867a8c0b4c8e5986023c997f662b4d81f0bd39",
+      "reused_from": "data/source/ja-Q111-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E6%98%9F/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:01.147393+00:00",
+      "file": "data/source-v2/ja-Q111-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "25646d351c8d8f321a1040b98ad2949bdffe4846aed66adcb1dbec51ca560f55",
+      "stored_sha256": "9f6235ba03db3b5a64a954f87dcce93fc675ba9b760d6d5af9da9c0207819032",
+      "reused_from": "data/source/ja-Q111-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E6%98%9F/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:01.360337+00:00",
+      "file": "data/source-v2/ja-Q111-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "74b3b5621a4976b216b76a2096096652470d3d9047f2653275724213c5beb36d",
+      "stored_sha256": "3d3fbc0d55ca0127d1dbaf23f87370bc9622083c29f95b666aa928523b66d7d0",
+      "reused_from": "data/source/ja-Q111-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%9C%88/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:01.587388+00:00",
+      "file": "data/source-v2/ja-Q405-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "d88c602c34f081c8ae24c5e5d289cd4b52a4047de67c250c56cd60d3d8417757",
+      "stored_sha256": "cab5e4b6e58a6cc65307e02184faab9913ad27c47700067312d4320bf0f10a0f",
+      "reused_from": "data/source/ja-Q405-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%9C%88/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:01.810429+00:00",
+      "file": "data/source-v2/ja-Q405-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "a48e3d7b2125f8b9cdf0a999105832a7669455c8f1760bee5dc0ba3841af4fee",
+      "stored_sha256": "9803b73384f5430e1784b78f71cdac01d0bbf6b1099a3cca9a275d9ff78fc2ea",
+      "reused_from": "data/source/ja-Q405-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%9C%88/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:02.008473+00:00",
+      "file": "data/source-v2/ja-Q405-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "e64c5a4b1e349d1c76bfec30c49c19b3974e5e9252989b77267fbedb42801ea9",
+      "stored_sha256": "7bbc89e81fb1ebebc3619dd890a0a49ee44493fc6e95c6b57d9fc34a699eb8e9",
+      "reused_from": "data/source/ja-Q405-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%9C%88/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:02.217509+00:00",
+      "file": "data/source-v2/ja-Q405-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "e4ef0eb1f11810208f3fcba3eb22203c8a700f30699ecb797cd64c2c4be7a0c1",
+      "stored_sha256": "9957d63afced3c054634148ed4324d01c589c49c4e6176db65d1eab04fa69701",
+      "reused_from": "data/source/ja-Q405-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E9%9F%B3%E6%A5%BD/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:56.359929+00:00",
+      "file": "data/source-v2/ja-Q638-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "5748a8dc1fe423b8e1eb5f9ee92e47bc424086bc7f731c4ceefeb911f84bb990",
+      "stored_sha256": "194909f7eb548e8aea8baa7bb01836ec9374d1b967fe6640d8b8aad84e376587"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E9%9F%B3%E6%A5%BD/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:56.560442+00:00",
+      "file": "data/source-v2/ja-Q638-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "c7c5e5c30484e753569f7835592b68944ae812d601113ee6312568d014dde24c",
+      "stored_sha256": "80ced569bb5c37d5d49aebcea7e74de5f3c176e2f85fc88e9a780163ae49b30a"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E9%9F%B3%E6%A5%BD/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:56.779373+00:00",
+      "file": "data/source-v2/ja-Q638-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "9002846779b661b38325df218ffbb37aa5137355e89f8e793704fc3c0920dc5e",
+      "stored_sha256": "71f94998bac08ce1897d6bfe04d33504e409ba4565cc39beaa9593c6cace1186"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E9%9F%B3%E6%A5%BD/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:57.011556+00:00",
+      "file": "data/source-v2/ja-Q638-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "10b85b104eeedf1be4a417638511d9f90f80fd304da311ed49591a91375e3417",
+      "stored_sha256": "db8c87287f0b8878f7279fe0b5bcdf604dd6c73104714c62e712658ed6d67029"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:02.425628+00:00",
+      "file": "data/source-v2/ja-Q5389-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "1f025608d6908211b82790895c69ad2f27ba045e51976ff5ea60bf5f5d632491",
+      "stored_sha256": "658bf318b316d1bf668fff38efb644a11912da1c1e3cad3f837a3d8da33d4c90",
+      "reused_from": "data/source/ja-Q5389-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:02.638520+00:00",
+      "file": "data/source-v2/ja-Q5389-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "3cc3b1ba4d194cbe12eddffab94c3840e22752b38a5ce75ffbd6b85e3d321751",
+      "stored_sha256": "60b013573fc1a49cdd6d01387cb5096c4b8f261507b331f650813fdaa2f9d279",
+      "reused_from": "data/source/ja-Q5389-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:02.850579+00:00",
+      "file": "data/source-v2/ja-Q5389-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "eb182f05d01a249ae3bba485ae46f7a57b3daa623e7dcdaffc8fd37158d82928",
+      "stored_sha256": "eacb9aa53c0e02be021cb819448f01f7356cd218a6720c901cdfac8101d4bb26",
+      "reused_from": "data/source/ja-Q5389-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:03.073696+00:00",
+      "file": "data/source-v2/ja-Q5389-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "eadc006875a2ffcabec0214a36520f1d24eccc2997697d41fd9ea913d62320cb",
+      "stored_sha256": "41df889d9b227f3e9c9dbc28ad65621f345d1aec3bdaddf0d0ed6a0832611714",
+      "reused_from": "data/source/ja-Q5389-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%85%89%E5%90%88%E6%88%90/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:57.249103+00:00",
+      "file": "data/source-v2/ja-Q11982-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "eb41e4d07e598d44891966f4aa4f4cb777e223f45eba30b680a2852bdf0cd40a",
+      "stored_sha256": "37a3a08dc92db36cfad8ca14aa238a29835e26e3ac774789e169e77140c803f6"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%85%89%E5%90%88%E6%88%90/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:57.465132+00:00",
+      "file": "data/source-v2/ja-Q11982-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "f210153b8d3f584893971536b2d1e8038633ce952296f08dc1661d3db6601dc2",
+      "stored_sha256": "e7917672d77df29304223cde1904606556ebeb951bbd9c407d9665e1ec0d3677"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%85%89%E5%90%88%E6%88%90/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:57.683157+00:00",
+      "file": "data/source-v2/ja-Q11982-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "bef144db1fc3c060380397249a0d782b09ca53a50ea272212774a74dbc9671ef",
+      "stored_sha256": "47f8e15779c8d86a4b317b2c2856e972ddf433958699b920b1a77352a7a2acf3"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%85%89%E5%90%88%E6%88%90/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:57.930716+00:00",
+      "file": "data/source-v2/ja-Q11982-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "8dc9781f8d103443a37dfce5c25b1d5206d67d927fa6048b60d62273610251b0",
+      "stored_sha256": "d81a51e8e022e3b4043dbfdd9bb5be5a52ee1b179cfb544ece77e5b960eb6ee0"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%97%A5%E9%A3%9F/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:03.299421+00:00",
+      "file": "data/source-v2/ja-Q3887-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "a78277201899f4b38356b75e330b13dc9239cf05de833be79aa1b58308479600",
+      "stored_sha256": "bcbdbf94b65b19d9c5bea3cc96dc061ed4d8164331d6f05792aea89d938cf3d6",
+      "reused_from": "data/source/ja-Q3887-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%97%A5%E9%A3%9F/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:03.510466+00:00",
+      "file": "data/source-v2/ja-Q3887-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "d1168e29779fef493ef1cd6061b553825a063f7443dc7303bc24e11df1488260",
+      "stored_sha256": "c805e531cea52f5f2a05e09d252d086e658b03048af2b5a1978fa75f8d18a945",
+      "reused_from": "data/source/ja-Q3887-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%97%A5%E9%A3%9F/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:03.720500+00:00",
+      "file": "data/source-v2/ja-Q3887-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "3b30d74773ea0c25f7865ecae32885c95ee757c954e0fb123ee655817fce533a",
+      "stored_sha256": "78d31dff72d7c5d5259cdbeadaca30864c3d9af36af5d04e89e2be472ea6f370",
+      "reused_from": "data/source/ja-Q3887-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%97%A5%E9%A3%9F/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:03.924087+00:00",
+      "file": "data/source-v2/ja-Q3887-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "a3a890a541643e843e5962a85adc4711f1ac370fa26ae4aea1afb7f9d5b4c4ec",
+      "stored_sha256": "96720bf76c636ab805ce771a4aeedf5d02fd27322f8d636d99cc8e1f092cb948",
+      "reused_from": "data/source/ja-Q3887-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%A4%AA%E9%99%BD/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:04.144240+00:00",
+      "file": "data/source-v2/ja-Q525-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "81ec23663fc1b5da6fd51375675260d0be8ec9b24ffa0760d548491221e3a7eb",
+      "stored_sha256": "39246ba5e4e4a00c7017c06b34f1ddb87b63f5bac0a09cde3a89cd5c439d05c5",
+      "reused_from": "data/source/ja-Q525-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%A4%AA%E9%99%BD/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:04.368542+00:00",
+      "file": "data/source-v2/ja-Q525-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "b9f8584f5f6517f90191c1388a434001cebd2a1501dd15672db15ce966f1cbf6",
+      "stored_sha256": "2715a538cbdb306bf85ce8cdbd17d0cd67877d6c3c31250f8cf5ec55b99ab1d8",
+      "reused_from": "data/source/ja-Q525-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%A4%AA%E9%99%BD/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:04.587599+00:00",
+      "file": "data/source-v2/ja-Q525-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "f68f8846e095b60e4607ac9326c21a9e9f1b1fb040e80103a5934e7317ec9da9",
+      "stored_sha256": "93f9bbd9bb7a34847f94f9e56470967b4175445b51681d3619f5d5898f091412",
+      "reused_from": "data/source/ja-Q525-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E5%A4%AA%E9%99%BD/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:04.808638+00:00",
+      "file": "data/source-v2/ja-Q525-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "75842a96973f7d7d136168f795456cbe4156d350ac42eb6a75d01ace13708391",
+      "stored_sha256": "1b76a6a89155fd717b1f343304f185ff6b830a9188f25ed26e76d59d08a351e5",
+      "reused_from": "data/source/ja-Q525-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B4%A5%E6%B3%A2/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:05.029789+00:00",
+      "file": "data/source-v2/ja-Q8070-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "cc73fc7c39a7bf48c9d296ed7b6c77c0db070ac0d875bcf286ecc219ebb31359",
+      "stored_sha256": "ed6efde33fadffa14c39299fcc10af5a56f46068cbf165aae6ce9758b917d81e",
+      "reused_from": "data/source/ja-Q8070-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B4%A5%E6%B3%A2/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:05.250849+00:00",
+      "file": "data/source-v2/ja-Q8070-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "dfee465e26831e55c54be5f3d08d95a2320b5d8848f94fd161709e5d31e071a5",
+      "stored_sha256": "dc29cc3dbed1da4a43509ae5843ce4df174abda79e60415edcae030547c581fe",
+      "reused_from": "data/source/ja-Q8070-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B4%A5%E6%B3%A2/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:05.467668+00:00",
+      "file": "data/source-v2/ja-Q8070-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "f4618a1258187aa00bf8980bf13debfe029fc35e7e3a95e3b308b5dc64395bfe",
+      "stored_sha256": "6f98820901b03b40eaefaa8cd1a6553c4441f6df9b1459964a353ecb488d877b",
+      "reused_from": "data/source/ja-Q8070-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B4%A5%E6%B3%A2/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:05.676715+00:00",
+      "file": "data/source-v2/ja-Q8070-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "2e080c30054492d6d70fd6f724eebd5f761939b71cad844ed77e5dea873658ed",
+      "stored_sha256": "1e5f73d02a8f7d96b59d0d600feac1aa8ae828b26a5770caf6e758888375e126",
+      "reused_from": "data/source/ja-Q8070-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E5%B1%B1/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T22:56:05.897761+00:00",
+      "file": "data/source-v2/ja-Q8072-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "b65af1f9a34aa251f177b44f1accad61b76316ba712c6a189ad9c0c6cd02be92",
+      "stored_sha256": "3eb09fc887f694133d15aee0920ad9134f13c5c6055b73b144ee715b2ba562f3",
+      "reused_from": "data/source/ja-Q8072-2022.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E5%B1%B1/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T22:56:06.102790+00:00",
+      "file": "data/source-v2/ja-Q8072-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "6ecc17f343b2adabf56750757cb89e8615ac74c64d0c109058933b3892b2e717",
+      "stored_sha256": "506333d039ac7c843d341ed4bb760d78e0640bfe02829074ec5c39cb1d1656c2",
+      "reused_from": "data/source/ja-Q8072-2023.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E5%B1%B1/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T22:56:06.708014+00:00",
+      "file": "data/source-v2/ja-Q8072-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "159685f145fe36140e9f0454cef9228f62cc6c956d3428264776d06c5fb1ccc3",
+      "stored_sha256": "0438295b7907b43b7fbddd4f0c7811a6a82daa9e007a4d3ac9af975f35e0c72a",
+      "reused_from": "data/source/ja-Q8072-2024.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E7%81%AB%E5%B1%B1/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T22:56:06.914074+00:00",
+      "file": "data/source-v2/ja-Q8072-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "b178729208ae699c124dfb3974f7715dba751506a436815cad3fbb30f25af4aa",
+      "stored_sha256": "e7b051ef6ea388bff8ca7323f39610e1e1b2892f0d15daa5f2b8182a342c7d42",
+      "reused_from": "data/source/ja-Q8072-2025.json.gz"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%B4/daily/20220101/20221231",
+      "retrieved_utc": "2026-10-28T23:01:58.164038+00:00",
+      "file": "data/source-v2/ja-Q283-2022.json.gz",
+      "status": "ok",
+      "response_sha256": "e4beeed1e6cb5933bdd8bb10cc4454be8c103bb244e239c1308a0045aff9dd4a",
+      "stored_sha256": "05004b7a5d33100683c3a94753bd103ad0b8dc9186f00ed555fd8f96d1ab90ec"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%B4/daily/20230101/20231231",
+      "retrieved_utc": "2026-10-28T23:01:58.378094+00:00",
+      "file": "data/source-v2/ja-Q283-2023.json.gz",
+      "status": "ok",
+      "response_sha256": "71a71ffb02d93b64c29976eea5f07c2e8180818887a136f859a1b8669014abcc",
+      "stored_sha256": "5f124a56e2f440adaea91e64dc1fe48326cb1311856a17c0a624b3cebcee2458"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%B4/daily/20240101/20241231",
+      "retrieved_utc": "2026-10-28T23:01:58.592129+00:00",
+      "file": "data/source-v2/ja-Q283-2024.json.gz",
+      "status": "ok",
+      "response_sha256": "17348f6a29f309e61c1475211241d1e5ccb1e8f6f514a60ca501021710a5af5e",
+      "stored_sha256": "ad57afd964d12455b33a0a05399f33fd313b95e7c1593f5cfa518be900514d9d"
+    },
+    {
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia.org/all-access/user/%E6%B0%B4/daily/20250101/20251231",
+      "retrieved_utc": "2026-10-28T23:01:58.797612+00:00",
+      "file": "data/source-v2/ja-Q283-2025.json.gz",
+      "status": "ok",
+      "response_sha256": "50463bfa5228617ea26947bed7856ac87b4fa0c1be4f79a167943b798fdf2c64",
+      "stored_sha256": "8e57e1f53093a9177abdbeab811d4d78496da550115931c78f9adaa28ae087d4"
+    }
+  ],
+  "test_outcomes_inspected": false
+}

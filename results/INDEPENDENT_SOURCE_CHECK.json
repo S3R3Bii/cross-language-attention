@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "responses_hashed": 289,
+  "source_rows_independently_joined": 69300,
+  "identities_checked": 48,
+  "pair_dates_and_eligibility_checked": 32,
+  "eligible_counts": [
+    {
+      "language": "es",
+      "role": "development",
+      "topics": 9
+    },
+    {
+      "language": "es",
+      "role": "held",
+      "topics": 3
+    },
+    {
+      "language": "ja",
+      "role": "development",
+      "topics": 10
+    },
+    {
+      "language": "ja",
+      "role": "held",
+      "topics": 4
+    }
+  ],
+  "scope": "All retained source counts, date keys, selected metadata fields, reuse bytes and cohort rules; bounded current-title lineage only; no live-vintage claim."
+}
