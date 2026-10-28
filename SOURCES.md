@@ -1,0 +1,9 @@
+# Source and method context
+
+- [Wikimedia Analytics API access policy](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/documentation/access-policy.html): API data are provided under CC0 1.0; clients identify themselves and send requests sequentially. Verified 28 October 2026.
+- [Pageview definition](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/concepts/page-views.html) and [pageview endpoints](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html): aggregate daily requests by project/title, not unique people. Bot detection, missing data, renames and current historical snapshots limit interpretation.
+- [MediaWiki log-event API](https://www.mediawiki.org/wiki/API:Logevents): request only titles, types, timestamps, IDs and move details. Exclude editor names and comments. A title-filtered query is a bounded title check, not exhaustive alias lineage.
+- [Wikidata structured-data licensing](https://www.wikidata.org/wiki/Wikidata:Licensing): topic identity uses current structured sitelinks, not copied article prose. Preserve exact metadata and pageview request hashes; source retrieval and coverage are unfinished.
+- X. C. Xie, I. Johnson and A. Gomez (2019), [Detecting and Gauging Impact on Wikipedia Page Views](https://arxiv.org/abs/1903.10670), studies pageview time-series prediction and discusses other language editions as predictors. Cross-language predictor use is established prior work; this study does not claim to invent it or reproduce the paper's event-effect estimators.
+
+Publish only eligible aggregate counts, selected metadata, original code, derived results and reviewed original manuscript/figures. No individual browsing data, editor identities, article prose, credentials, third-party source papers or formal-publication manuscripts belong in this package. Use the existing API policies and do not bypass access controls.
