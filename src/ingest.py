@@ -7,7 +7,7 @@ import io
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / 'data/source'
+SOURCE = ROOT / 'data/source-v2'
 
 
 def load(name):
@@ -40,8 +40,9 @@ def ingest():
             if not page.get('revisions') or page['revisions'][0]['timestamp'] >= '2022-01-01T00:00:00Z':
                 reasons.append('No retained pre-2022 revision identity')
             events = moves['query']['logevents']
-            if events:
-                reasons.append('Current-title move log contains an event since 2022')
+            period_events = [event for event in events if '2022-01-01T00:00:00Z' <= event['timestamp'] < '2026-01-01T00:00:00Z']
+            if period_events:
+                reasons.append('Current-title move log contains an event within 2022-2025')
             if 'continue' in moves:
                 reasons.append('Move log truncated at the declared bound')
             values = {}
@@ -63,7 +64,7 @@ def ingest():
             identities.append({'qid': qid, 'topic': topic['topic'], 'role': topic['role'], 'language': lang,
                                'title': title, 'pageid': page.get('pageid'),
                                'pre_2022_revision': page.get('revisions', []),
-                               'bounded_move_events': events, 'exclusion_reasons': reasons,
+                               'bounded_move_events': events, 'analysis_period_move_events': period_events, 'exclusion_reasons': reasons,
                                'observed_days': len(values), 'missing_days': sorted(expected - set(values)),
                                'lineage_limit': 'Current-title log only; aliases are not aggregated and exhaustive historical equivalence is unverified.'})
 

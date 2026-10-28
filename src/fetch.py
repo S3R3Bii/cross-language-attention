@@ -11,11 +11,11 @@ import urllib.parse
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / 'data/source'
+DATA = ROOT / 'data/source-v2'
 USER_AGENT = 'CrossLanguageAttentionResearch/0.1 (https://github.com/S3R3Bii/cross-language-attention) Python-urllib/3.10'
 TITLES = ['Earth', 'Moon', 'Mars', 'Sun', 'Volcano', 'Earthquake', 'Tsunami',
           'Artificial_intelligence', 'Machine_learning', 'Climate_change',
-          'Olympic_Games', 'Solar_eclipse']
+          'Olympic_Games', 'Solar_eclipse', 'Water', 'Photosynthesis', 'Computer', 'Music']
 HELD = {'Moon', 'Tsunami', 'Machine learning', 'Olympic Games'}
 
 
@@ -51,6 +51,8 @@ def fetch():
 
     records = []
     recovered = {}
+    original_manifest = ROOT / 'data/source/manifest.json'
+    reusable = {row['url']: row for row in json.loads(original_manifest.read_text(encoding='utf-8'))['requests'] if row['status'] == 'ok'} if original_manifest.exists() else {}
     failed_path = DATA / 'failed-attempt.json'
     if failed_path.exists():
         previous = json.loads(failed_path.read_text(encoding='utf-8'))
@@ -71,6 +73,16 @@ def fetch():
             blob = gzip.decompress(stored)
             assert digest(blob) == previous['response_sha256'], path.name
             records.append(previous)
+            return json.loads(blob)
+        if url in reusable:
+            previous = reusable[url]
+            stored = (ROOT / previous['file']).read_bytes()
+            assert digest(stored) == previous['stored_sha256']
+            blob = gzip.decompress(stored)
+            assert digest(blob) == previous['response_sha256']
+            path.write_bytes(stored)
+            entry = dict(previous, file=path.relative_to(ROOT).as_posix(), reused_from=previous['file'])
+            records.append(entry)
             return json.loads(blob)
         entry = {'url': url, 'retrieved_utc': datetime.now(timezone.utc).isoformat(),
                  'file': path.relative_to(ROOT).as_posix()}
@@ -93,7 +105,7 @@ def fetch():
     params = {'action': 'wbgetentities', 'sites': 'enwiki', 'titles': '|'.join(TITLES),
               'props': 'sitelinks', 'sitefilter': 'enwiki|eswiki|jawiki', 'format': 'json'}
     entities = save('https://www.wikidata.org/w/api.php?' + urllib.parse.urlencode(params), 'topic-sitelinks')
-    assert len(entities['entities']) == 12
+    assert len(entities['entities']) == 16
     topics = []
     for qid, entity in entities['entities'].items():
         links = entity['sitelinks']
