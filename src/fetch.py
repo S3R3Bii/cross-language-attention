@@ -4,6 +4,7 @@ from pathlib import Path
 import gzip
 import hashlib
 import json
+import shutil
 import time
 import urllib.error
 import urllib.parse
@@ -49,12 +50,28 @@ def fetch():
         return
 
     records = []
+    recovered = {}
+    failed_path = DATA / 'failed-attempt.json'
+    if failed_path.exists():
+        previous = json.loads(failed_path.read_text(encoding='utf-8'))
+        history = DATA / 'attempts'
+        history.mkdir(exist_ok=True)
+        saved = history / f'failed-{len(list(history.glob("failed-*.json"))) + 1}.json'
+        shutil.copy2(failed_path, saved)
+        recovered = {row['file']: row for row in previous['requests'] if row['status'] == 'ok'}
     started = datetime.now(timezone.utc).isoformat()
 
     def save(url, name):
         path = DATA / (name + '.json.gz')
         if path.exists():
-            raise RuntimeError('Partial source snapshot exists; retain it and resolve explicitly before a retry.')
+            previous = recovered.get(path.relative_to(ROOT).as_posix())
+            assert previous is not None and previous['url'] == url, path.name
+            stored = path.read_bytes()
+            assert digest(stored) == previous['stored_sha256'], path.name
+            blob = gzip.decompress(stored)
+            assert digest(blob) == previous['response_sha256'], path.name
+            records.append(previous)
+            return json.loads(blob)
         entry = {'url': url, 'retrieved_utc': datetime.now(timezone.utc).isoformat(),
                  'file': path.relative_to(ROOT).as_posix()}
         try:
@@ -88,12 +105,14 @@ def fetch():
     (DATA / 'topics.json').write_text(json.dumps(topics, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 
     for lang in ['en', 'es', 'ja']:
-        params = {'action': 'query', 'prop': 'info|revisions', 'titles': '|'.join(x['titles'][lang] for x in topics),
-                  'rvprop': 'ids|timestamp', 'rvlimit': 1, 'rvstart': '2021-12-31T23:59:59Z',
-                  'format': 'json', 'formatversion': 2, 'redirects': 1}
-        save('https://' + lang + '.wikipedia.org/w/api.php?' + urllib.parse.urlencode(params), lang + '-page-identities')
         for topic in topics:
             title = topic['titles'][lang]
+            # Date-bounded revision queries accept one page per request.
+            params = {'action': 'query', 'prop': 'info|revisions', 'titles': title,
+                      'rvprop': 'ids|timestamp', 'rvlimit': 1, 'rvstart': '2021-12-31T23:59:59Z',
+                      'format': 'json', 'formatversion': 2, 'redirects': 1}
+            save('https://' + lang + '.wikipedia.org/w/api.php?' + urllib.parse.urlencode(params),
+                 f"{lang}-{topic['qid']}-page-identity")
             params = {'action': 'query', 'list': 'logevents', 'letype': 'move', 'letitle': title,
                       'leprop': 'ids|title|type|timestamp|details', 'leend': '2022-01-01T00:00:00Z',
                       'lelimit': 500, 'format': 'json', 'formatversion': 2}

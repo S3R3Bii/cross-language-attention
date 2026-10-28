@@ -1,0 +1,122 @@
+[
+  {
+    "qid": "Q11660",
+    "topic": "Artificial intelligence",
+    "role": "development",
+    "titles": {
+      "en": "Artificial intelligence",
+      "es": "Inteligencia artificial",
+      "ja": "人工知能"
+    }
+  },
+  {
+    "qid": "Q125928",
+    "topic": "Climate change",
+    "role": "development",
+    "titles": {
+      "en": "Climate change",
+      "es": "Cambio climático global",
+      "ja": "気候変動"
+    }
+  },
+  {
+    "qid": "Q2",
+    "topic": "Earth",
+    "role": "development",
+    "titles": {
+      "en": "Earth",
+      "es": "Tierra",
+      "ja": "地球"
+    }
+  },
+  {
+    "qid": "Q7944",
+    "topic": "Earthquake",
+    "role": "development",
+    "titles": {
+      "en": "Earthquake",
+      "es": "Terremoto",
+      "ja": "地震"
+    }
+  },
+  {
+    "qid": "Q2539",
+    "topic": "Machine learning",
+    "role": "held",
+    "titles": {
+      "en": "Machine learning",
+      "es": "Aprendizaje automático",
+      "ja": "機械学習"
+    }
+  },
+  {
+    "qid": "Q111",
+    "topic": "Mars",
+    "role": "development",
+    "titles": {
+      "en": "Mars",
+      "es": "Marte (planeta)",
+      "ja": "火星"
+    }
+  },
+  {
+    "qid": "Q405",
+    "topic": "Moon",
+    "role": "held",
+    "titles": {
+      "en": "Moon",
+      "es": "Luna",
+      "ja": "月"
+    }
+  },
+  {
+    "qid": "Q5389",
+    "topic": "Olympic Games",
+    "role": "held",
+    "titles": {
+      "en": "Olympic Games",
+      "es": "Juegos Olímpicos",
+      "ja": "近代オリンピック"
+    }
+  },
+  {
+    "qid": "Q3887",
+    "topic": "Solar eclipse",
+    "role": "development",
+    "titles": {
+      "en": "Solar eclipse",
+      "es": "Eclipse solar",
+      "ja": "日食"
+    }
+  },
+  {
+    "qid": "Q525",
+    "topic": "Sun",
+    "role": "development",
+    "titles": {
+      "en": "Sun",
+      "es": "Sol",
+      "ja": "太陽"
+    }
+  },
+  {
+    "qid": "Q8070",
+    "topic": "Tsunami",
+    "role": "held",
+    "titles": {
+      "en": "Tsunami",
+      "es": "Tsunami",
+      "ja": "津波"
+    }
+  },
+  {
+    "qid": "Q8072",
+    "topic": "Volcano",
+    "role": "development",
+    "titles": {
+      "en": "Volcano",
+      "es": "Volcán",
+      "ja": "火山"
+    }
+  }
+]
