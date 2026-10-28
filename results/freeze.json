@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_BEFORE_TEST_INFERENCE",
+  "models": 78,
+  "selection_sha256": "b082559191630cabec8a1bbe51e754875691777efb4c267b07b7937d045028a4",
+  "models_sha256": "ad37a889a0d481ae70d6b2480f4e8b45adfe9a8687fa83cf615aa8bc583bd241",
+  "panel_sha256": "32747a013b03bd788872ab709eda46e30a60c3caf21926a312c1b14206a395ad",
+  "protocol_sha256": "4a7774899625887c970d64e04348cef142de8ed9b1aefd7c7cdf843781f1dd2c",
+  "normalized_source_sha256": {
+    "src/model.py": "0a0b33af6a4e379b3aabb817b72ac84d8063d87cc79035d706f97ebf59e19ff2",
+    "src/train.py": "e6e6f49e99d8e1d135bd048241b472243176ffbf1a7294d45e681e582d8be3ca",
+    "src/evaluate.py": "89151331f9314f23bd8ddc91a80943c30a331c95b94c869da6e96354c43108e5",
+    "PROTOCOL.md": "4a7774899625887c970d64e04348cef142de8ed9b1aefd7c7cdf843781f1dd2c",
+    "SOURCE_AMENDMENT_V2.md": "da9c49e241be4a34862a7b924bf35450bb806893f5e5e69bec1942adc86b8379",
+    "SEARCH_EXTENSION_V2.md": "2890c7355903d5830b525b5e12b20682d3f25f1e94859bf73bb9567bf8e1c078"
+  },
+  "test_start": "2025-01-01",
+  "test_end": "2025-12-31",
+  "test_inference_performed": false,
+  "scope": "Hyperparameter transfer; final models fit their own pre-2025 page history. Retrospective source snapshot."
+}

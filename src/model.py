@@ -12,7 +12,7 @@ for variable in ['OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS']:
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-PENALTIES = [0.01, 0.1, 1.0, 10.0, 100.0]
+PENALTIES = [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
 FAMILIES = ['own', 'english2', 'english7']
 FOLDS = [('2024-01-01', '2024-04-30'), ('2024-05-01', '2024-08-31'), ('2024-09-01', '2024-12-31')]
 

@@ -76,7 +76,7 @@ def certificate(name, model, data, pair, cache):
         close(actual, expected, 1e-12, 1e-12)
     z = (x - np.array(model['mean'])) / np.array(model['scale'])
     b, beta, lam = model['intercept'], np.array(model['coefficient']), model['penalty']
-    assert lam in [0.01, 0.1, 1, 10, 100]
+    assert lam in [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
     residual = np.array([b + math.fsum(float(v * w) for v, w in zip(row, beta)) - target for row, target in zip(z, y)])
     gradient = [2 * math.fsum(float(v) for v in residual) / len(y)]
     gradient.extend(2 * math.fsum(float(a * r) for a, r in zip(z[:, j], residual)) / len(y) + 2 * lam * beta[j] for j in range(z.shape[1]))
@@ -139,7 +139,7 @@ def verify(stage, root=ROOT):
                 prediction_count += 1
         with (root / 'results/validation_trials.csv').open(encoding='utf-8', newline='') as stream:
             trials = list(csv.DictReader(stream))
-        expected = len([pair for pair in pairs.values() if pair['language'] == 'es' and pair['role'] == 'development']) * 45
+        expected = len([pair for pair in pairs.values() if pair['language'] == 'es' and pair['role'] == 'development']) * 63
         assert len(trials) == len(models) == expected
         objectives = defaultdict(list)
         for trial in trials:
