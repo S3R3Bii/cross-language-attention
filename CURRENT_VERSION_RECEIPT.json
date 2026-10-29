@@ -1,0 +1,97 @@
+{
+  "timestamp_utc": "2026-10-29T00:05:48.299931+00:00",
+  "status": "LOCAL_CANDIDATE_PASS_LINUX_RELEASE_PENDING",
+  "study_id": "49",
+  "audience": "Editors and research/technical reviewers",
+  "scope": "Independent retrospective fixed-title benchmark;GitHub manuscript authorized;formal-publication projects excluded.",
+  "criteria": {
+    "source_and_rights": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "289 exact response records;69,300 source rows/48 identities/32 pair-date manifests independently reconciled;CC0 terms;26 eligible pairs;6 exclusions."
+    },
+    "selection_and_timing": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Spanish development-only selection, all original405 fits retained, bounded extension before first test;historical pre-test freeze5a446198de1f unchanged."
+    },
+    "numerical_fitting": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "567validation+78final scalar objective/gradient/Hessian and augmentedQR checks;no tolerance relaxed."
+    },
+    "independent_metrics": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Every69,174validation/47,450test prediction;130metrics;30summaries;16,000draws;8intervals checked."
+    },
+    "fresh_replay": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "All645fits rebuilt offline;all scientific values/figures match at1e-7abs/1e-9rel."
+    },
+    "readability_and_rendering": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "3figures and6PDFpages visually inspected;affected page2 freshly checked;zero compiler box/glyph/reference warnings;executive first layer with uncertainty."
+    },
+    "publication_privacy": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Exact staged file scan, approved5-file paper hash manifest,PDF text/active-content checks;formal-publication projects excluded."
+    },
+    "linux_ci_and_release": {
+      "state": "UNKNOWN",
+      "grade": null,
+      "evidence": "Local candidate complete;exact-head Linux result and tested merge/tree/tag proof required."
+    }
+  },
+  "independent_checks": {
+    "INDEPENDENT_SOURCE_CHECK.json": "PASS",
+    "INDEPENDENT_VALIDATION_CHECK.json": "PASS",
+    "INDEPENDENT_FROZEN_CHECK.json": "PASS",
+    "INDEPENDENT_EVALUATION_CHECK.json": "PASS",
+    "INDEPENDENT_PRESENTATION_CHECK.json": "PASS",
+    "INDEPENDENT_PAPER_CHECK.json": "PASS",
+    "reproduction.json": "PASS"
+  },
+  "sha256": {
+    "PROTOCOL.md": "4a7774899625887c970d64e04348cef142de8ed9b1aefd7c7cdf843781f1dd2c",
+    "SOURCE_AMENDMENT_V2.md": "da9c49e241be4a34862a7b924bf35450bb806893f5e5e69bec1942adc86b8379",
+    "SEARCH_EXTENSION_V2.md": "2890c7355903d5830b525b5e12b20682d3f25f1e94859bf73bb9567bf8e1c078",
+    "requirements.txt": "059aa4f12c5cc56232f0cb39aa045fc159d4f7e39e66e739be048111d6ad90e7",
+    "results/freeze.json": "b257645c585dd795739b5c1e2fa1d4214d4f27b93a8218d21d54e2c4e482aa3b",
+    "results/frozen_models.json": "ad37a889a0d481ae70d6b2480f4e8b45adfe9a8687fa83cf615aa8bc583bd241",
+    "results/selection.json": "b082559191630cabec8a1bbe51e754875691777efb4c267b07b7937d045028a4",
+    "data/source-v2/manifest.json": "308cfd9179a418b487dc595bf9c36895c15920173602785b94c3eeb86398595f",
+    "paper/main.tex": "4399c7b6e25b325f09d661e0f9abaeea58fffc9f7204e637a9d9aa3e07199984",
+    "paper/manuscript.pdf": "6b38281a02b78dca78a2d4dee6c72b17d2dabcb818a5a803e82dd046c3bcd9a1",
+    "paper/REVIEW.json": "848c902127cc1f4463da61865435ab475e267fd1f138410a8c69b3f1068e678c",
+    "src/check_reproduction.py": "e463b826a1e920941cd1ceb037298374e4b5cea292afd5ec8a699dd72e5ed4dd",
+    "src/verify_paper.py": "188fc86ff2cbfd3da510f0959e91603c10442aa6a9b58df2d873e534eeb0d53b"
+  },
+  "review_budget": {
+    "max_rounds": 3,
+    "max_active_review_minutes": 45,
+    "max_review_tool_calls": 60,
+    "current_closeout_rounds": 3,
+    "current_closeout_start_utc": "2026-10-28T23:54:30Z",
+    "prior_review_total": "Exact prior tool/time totals unavailable in resumed context; not treated as zero or quota usage."
+  },
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T00:01:26Z",
+    "used_percent": 44,
+    "remaining_percent": 56,
+    "window_minutes": 10080,
+    "resets_at_unix": 1793782197,
+    "scope": "Shared account usage, not task consumption."
+  },
+  "limitations": [
+    "Historical snapshots;assumed two-day availability;no live vintage guarantee.",
+    "Small fixed convenience panel;bounded title lineage;conditional twelve-month intervals.",
+    "Parameter-selection transfer;each final page fits its own earlier history.",
+    "No causal,new-algorithm,peer-review,deployment or realized-saving claim."
+  ],
+  "remaining": "Exact-head Linux check,merge/tree/tag proof and program metadata update;not yet counted as a released study."
+}
