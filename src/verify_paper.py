@@ -3,6 +3,7 @@ from pathlib import Path
 import csv
 import hashlib
 import json
+import subprocess
 ROOT=Path(__file__).resolve().parents[1]
 
 
@@ -50,7 +51,16 @@ def main():
     selection=json.loads((ROOT/'results/selection.json').read_text(encoding='utf-8'))
     assert [selection['selected'][f]['penalty'] for f in ['own','english2','english7']]==[.001,.01,.001]
     assert '567' in text and '69,174' in text and '47,450' in text and '16,000' in text
-    certificates=[json.loads((ROOT/'results'/f'INDEPENDENT_{stage}_CHECK.json').read_text(encoding='utf-8')) for stage in ['VALIDATION','FROZEN']]
+    # Publication extrema describe the retained review run, whose exact bytes
+    # belong to this commit. A fresh OS rerun is independently bounded, but its
+    # floating-point residual is not the historical diagnostic quoted in prose.
+    review=json.loads((paper/'REVIEW.json').read_text(encoding='utf-8'))
+    certificates=[]
+    for stage in ['VALIDATION','FROZEN']:
+        path=f'results/INDEPENDENT_{stage}_CHECK.json'
+        blob=subprocess.check_output(['git','show','HEAD:'+path],cwd=ROOT)
+        assert hashlib.sha256(blob).hexdigest()==review['publication_certificate_sha256'][path],path
+        certificates.append(json.loads(blob))
     assert sum(r['independent_optimizer_certificates'] for r in certificates)==645
     assert f"{max(r['max_gradient'] for r in certificates)/1e-14:.2f}" in text
     assert f"{min(r['min_hessian_eigenvalue'] for r in certificates):.5f}" in text

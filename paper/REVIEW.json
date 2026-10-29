@@ -22,5 +22,9 @@
     "Intermediate orphan continuation detected; tightened redundant certification prose without changing numerical claims.",
     "All six exclusion names now come directly from verified source accounting; independent manuscript check caught and corrected Moon/Sun and Earthquake/Solar-eclipse authoring labels before publication. No source/model/evaluation change."
   ],
-  "limitations": "Bounded source, rendering and privacy review; no universal accessibility, correctness or secret-detection guarantee."
+  "limitations": "Bounded source, rendering and privacy review; no universal accessibility, correctness or secret-detection guarantee.",
+  "publication_certificate_sha256": {
+    "results/INDEPENDENT_VALIDATION_CHECK.json": "843ea311bf2da8f2e09214cdbc73c764aa6263a3302e025629c33ff1389a03bc",
+    "results/INDEPENDENT_FROZEN_CHECK.json": "4f7995d4b458effaeef11d83c502c0bc4c2ab5cab69669726c8f8a2e14f46a13"
+  }
 }

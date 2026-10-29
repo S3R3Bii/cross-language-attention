@@ -66,9 +66,9 @@
     "data/source-v2/manifest.json": "308cfd9179a418b487dc595bf9c36895c15920173602785b94c3eeb86398595f",
     "paper/main.tex": "4399c7b6e25b325f09d661e0f9abaeea58fffc9f7204e637a9d9aa3e07199984",
     "paper/manuscript.pdf": "6b38281a02b78dca78a2d4dee6c72b17d2dabcb818a5a803e82dd046c3bcd9a1",
-    "paper/REVIEW.json": "848c902127cc1f4463da61865435ab475e267fd1f138410a8c69b3f1068e678c",
+    "paper/REVIEW.json": "3e5c679d6492f3c117116fac5df646b944a903aa2c535a1c1202d7b710ff9ffa",
     "src/check_reproduction.py": "e463b826a1e920941cd1ceb037298374e4b5cea292afd5ec8a699dd72e5ed4dd",
-    "src/verify_paper.py": "188fc86ff2cbfd3da510f0959e91603c10442aa6a9b58df2d873e534eeb0d53b"
+    "src/verify_paper.py": "c4c7ed34be4fe659bcc8b2f6c489d0d1fdb8267f2d7ad63eeecd9dcb88913449"
   },
   "review_budget": {
     "max_rounds": 3,
@@ -93,5 +93,11 @@
     "Parameter-selection transfer;each final page fits its own earlier history.",
     "No causal,new-algorithm,peer-review,deployment or realized-saving claim."
   ],
-  "remaining": "Exact-head Linux check,merge/tree/tag proof and program metadata update;not yet counted as a released study."
+  "remaining": "Exact-head Linux check,merge/tree/tag proof and program metadata update;not yet counted as a released study.",
+  "retained_linux_attempt": {
+    "run": 40791912629,
+    "scientific_replay": "PASS",
+    "publication_provenance_check": "FAIL_REPAIRED",
+    "evidence": "results/corrections/ci-diagnostic-publication-provenance.json"
+  }
 }
