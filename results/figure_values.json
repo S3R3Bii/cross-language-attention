@@ -1,0 +1,860 @@
+{
+  "groups": [
+    {
+      "method": "own",
+      "language": "es",
+      "role": "development",
+      "pages": 9,
+      "n": 3285,
+      "page_balanced_msle": 0.05413778519795793,
+      "page_balanced_rmsle": 0.23267527844177585,
+      "page_balanced_mae": 124.75297396307305,
+      "page_balanced_mse": 64883.764154715034,
+      "mase_defined_pages": 9,
+      "mean_defined_mase": 0.36312890084059934
+    },
+    {
+      "method": "english2",
+      "language": "es",
+      "role": "development",
+      "pages": 9,
+      "n": 3285,
+      "page_balanced_msle": 0.051250863927452914,
+      "page_balanced_rmsle": 0.2263865365419351,
+      "page_balanced_mae": 122.33839506973987,
+      "page_balanced_mse": 62139.70644647284,
+      "mase_defined_pages": 9,
+      "mean_defined_mase": 0.35653269072793126
+    },
+    {
+      "method": "english7",
+      "language": "es",
+      "role": "development",
+      "pages": 9,
+      "n": 3285,
+      "page_balanced_msle": 0.05289872577763443,
+      "page_balanced_rmsle": 0.22999722993469818,
+      "page_balanced_mae": 123.42538227505014,
+      "page_balanced_mse": 64019.14465377803,
+      "mase_defined_pages": 9,
+      "mean_defined_mase": 0.36015718898007565
+    },
+    {
+      "method": "lag7",
+      "language": "es",
+      "role": "development",
+      "pages": 9,
+      "n": 3285,
+      "page_balanced_msle": 0.09770391182099242,
+      "page_balanced_rmsle": 0.31257624961118274,
+      "page_balanced_mae": 160.9333333333333,
+      "page_balanced_mse": 109530.200304414,
+      "mase_defined_pages": 9,
+      "mean_defined_mase": 0.46230868723379337
+    },
+    {
+      "method": "weekly4",
+      "language": "es",
+      "role": "development",
+      "pages": 9,
+      "n": 3285,
+      "page_balanced_msle": 0.15852204499416056,
+      "page_balanced_rmsle": 0.3981482701132338,
+      "page_balanced_mae": 205.28508371385084,
+      "page_balanced_mse": 126418.69965753425,
+      "mase_defined_pages": 9,
+      "mean_defined_mase": 0.6032281981397399
+    },
+    {
+      "method": "own",
+      "language": "es",
+      "role": "held",
+      "pages": 3,
+      "n": 1095,
+      "page_balanced_msle": 0.08782801634347644,
+      "page_balanced_rmsle": 0.29635791931965716,
+      "page_balanced_mae": 104.29980134532491,
+      "page_balanced_mse": 539299.2868830567,
+      "mase_defined_pages": 3,
+      "mean_defined_mase": 0.5845472291702087
+    },
+    {
+      "method": "english2",
+      "language": "es",
+      "role": "held",
+      "pages": 3,
+      "n": 1095,
+      "page_balanced_msle": 0.08600205685730707,
+      "page_balanced_rmsle": 0.2932610728639365,
+      "page_balanced_mae": 101.89351751633224,
+      "page_balanced_mse": 538445.5932640707,
+      "mase_defined_pages": 3,
+      "mean_defined_mase": 0.5630724529383891
+    },
+    {
+      "method": "english7",
+      "language": "es",
+      "role": "held",
+      "pages": 3,
+      "n": 1095,
+      "page_balanced_msle": 0.08866180878365175,
+      "page_balanced_rmsle": 0.29776132855636533,
+      "page_balanced_mae": 104.26860962559272,
+      "page_balanced_mse": 541119.6622196761,
+      "mase_defined_pages": 3,
+      "mean_defined_mase": 0.5833185506107702
+    },
+    {
+      "method": "lag7",
+      "language": "es",
+      "role": "held",
+      "pages": 3,
+      "n": 1095,
+      "page_balanced_msle": 0.14836040473850987,
+      "page_balanced_rmsle": 0.38517581016791524,
+      "page_balanced_mae": 146.28127853881278,
+      "page_balanced_mse": 1061529.6767123288,
+      "mase_defined_pages": 3,
+      "mean_defined_mase": 0.8103215693085479
+    },
+    {
+      "method": "weekly4",
+      "language": "es",
+      "role": "held",
+      "pages": 3,
+      "n": 1095,
+      "page_balanced_msle": 0.17347506664684065,
+      "page_balanced_rmsle": 0.41650338131501485,
+      "page_balanced_mae": 146.61004566210045,
+      "page_balanced_mse": 674764.1845890412,
+      "mase_defined_pages": 3,
+      "mean_defined_mase": 0.8126047931223831
+    },
+    {
+      "method": "own",
+      "language": "ja",
+      "role": "development",
+      "pages": 10,
+      "n": 3650,
+      "page_balanced_msle": 0.04848503830102553,
+      "page_balanced_rmsle": 0.220193184047612,
+      "page_balanced_mae": 48.186013600585696,
+      "page_balanced_mse": 13642.88758400571,
+      "mase_defined_pages": 10,
+      "mean_defined_mase": 0.5848666881479287
+    },
+    {
+      "method": "english2",
+      "language": "ja",
+      "role": "development",
+      "pages": 10,
+      "n": 3650,
+      "page_balanced_msle": 0.0469796382316348,
+      "page_balanced_rmsle": 0.21674786788255795,
+      "page_balanced_mae": 47.479428549976895,
+      "page_balanced_mse": 13611.50205884751,
+      "mase_defined_pages": 10,
+      "mean_defined_mase": 0.5688871145667472
+    },
+    {
+      "method": "english7",
+      "language": "ja",
+      "role": "development",
+      "pages": 10,
+      "n": 3650,
+      "page_balanced_msle": 0.04866231942713184,
+      "page_balanced_rmsle": 0.22059537489968334,
+      "page_balanced_mae": 48.5618398596851,
+      "page_balanced_mse": 13777.79743355283,
+      "mase_defined_pages": 10,
+      "mean_defined_mase": 0.5817309973436191
+    },
+    {
+      "method": "lag7",
+      "language": "ja",
+      "role": "development",
+      "pages": 10,
+      "n": 3650,
+      "page_balanced_msle": 0.08071569370871612,
+      "page_balanced_rmsle": 0.2841050751196045,
+      "page_balanced_mae": 61.20191780821917,
+      "page_balanced_mse": 25933.983287671235,
+      "mase_defined_pages": 10,
+      "mean_defined_mase": 0.7386251998218986
+    },
+    {
+      "method": "weekly4",
+      "language": "ja",
+      "role": "development",
+      "pages": 10,
+      "n": 3650,
+      "page_balanced_msle": 0.08168850051814938,
+      "page_balanced_rmsle": 0.28581200205405893,
+      "page_balanced_mae": 62.19205479452056,
+      "page_balanced_mse": 19975.555821917806,
+      "mase_defined_pages": 10,
+      "mean_defined_mase": 0.7290516858948908
+    },
+    {
+      "method": "own",
+      "language": "ja",
+      "role": "held",
+      "pages": 4,
+      "n": 1460,
+      "page_balanced_msle": 0.09101561696004454,
+      "page_balanced_rmsle": 0.3016879463287265,
+      "page_balanced_mae": 65.66046932752293,
+      "page_balanced_mse": 245565.18293141123,
+      "mase_defined_pages": 4,
+      "mean_defined_mase": 0.5794120529483648
+    },
+    {
+      "method": "english2",
+      "language": "ja",
+      "role": "held",
+      "pages": 4,
+      "n": 1460,
+      "page_balanced_msle": 0.09312272843838833,
+      "page_balanced_rmsle": 0.30516016849908234,
+      "page_balanced_mae": 64.28025700185972,
+      "page_balanced_mse": 246524.53533887968,
+      "mase_defined_pages": 4,
+      "mean_defined_mase": 0.568898726234311
+    },
+    {
+      "method": "english7",
+      "language": "ja",
+      "role": "held",
+      "pages": 4,
+      "n": 1460,
+      "page_balanced_msle": 0.09414357893383019,
+      "page_balanced_rmsle": 0.3068282564136331,
+      "page_balanced_mae": 66.41964564623497,
+      "page_balanced_mse": 246020.19261794662,
+      "mase_defined_pages": 4,
+      "mean_defined_mase": 0.5882944974885782
+    },
+    {
+      "method": "lag7",
+      "language": "ja",
+      "role": "held",
+      "pages": 4,
+      "n": 1460,
+      "page_balanced_msle": 0.17619159614901558,
+      "page_balanced_rmsle": 0.4197518268560788,
+      "page_balanced_mae": 102.04794520547946,
+      "page_balanced_mse": 489824.76712328766,
+      "mase_defined_pages": 4,
+      "mean_defined_mase": 0.8946211879296941
+    },
+    {
+      "method": "weekly4",
+      "language": "ja",
+      "role": "held",
+      "pages": 4,
+      "n": 1460,
+      "page_balanced_msle": 0.17802397490301125,
+      "page_balanced_rmsle": 0.42192887422290887,
+      "page_balanced_mae": 96.42208904109589,
+      "page_balanced_mse": 308468.5217037671,
+      "mase_defined_pages": 4,
+      "mean_defined_mase": 0.8433052310651439
+    }
+  ],
+  "intervals": [
+    {
+      "language": "es",
+      "role": "development",
+      "method": "english2",
+      "pages": 9,
+      "point_difference": -0.002886921270505015,
+      "conditional_95_low": -0.004926731124742399,
+      "conditional_95_high": -0.0011464687816278142,
+      "draws": 2000
+    },
+    {
+      "language": "es",
+      "role": "development",
+      "method": "english7",
+      "pages": 9,
+      "point_difference": -0.001239059420323499,
+      "conditional_95_low": -0.0017937110362386578,
+      "conditional_95_high": -0.0008465457951421901,
+      "draws": 2000
+    },
+    {
+      "language": "es",
+      "role": "held",
+      "method": "english2",
+      "pages": 3,
+      "point_difference": -0.0018259594861693706,
+      "conditional_95_low": -0.0035505406970321334,
+      "conditional_95_high": 0.00011818688757234903,
+      "draws": 2000
+    },
+    {
+      "language": "es",
+      "role": "held",
+      "method": "english7",
+      "pages": 3,
+      "point_difference": 0.0008337924401753127,
+      "conditional_95_low": -0.0009892956280133866,
+      "conditional_95_high": 0.00336502157441951,
+      "draws": 2000
+    },
+    {
+      "language": "ja",
+      "role": "development",
+      "method": "english2",
+      "pages": 10,
+      "point_difference": -0.0015054000693907332,
+      "conditional_95_low": -0.0030305253825106786,
+      "conditional_95_high": -0.0002851265072654157,
+      "draws": 2000
+    },
+    {
+      "language": "ja",
+      "role": "development",
+      "method": "english7",
+      "pages": 10,
+      "point_difference": 0.0001772811261063073,
+      "conditional_95_low": -0.0007686618254373206,
+      "conditional_95_high": 0.0012190295518749196,
+      "draws": 2000
+    },
+    {
+      "language": "ja",
+      "role": "held",
+      "method": "english2",
+      "pages": 4,
+      "point_difference": 0.00210711147834379,
+      "conditional_95_low": -0.0018759988769736786,
+      "conditional_95_high": 0.007394450605205013,
+      "draws": 2000
+    },
+    {
+      "language": "ja",
+      "role": "held",
+      "method": "english7",
+      "pages": 4,
+      "point_difference": 0.003127961973785648,
+      "conditional_95_low": 0.0004704440600829165,
+      "conditional_95_high": 0.007339568878861554,
+      "draws": 2000
+    }
+  ],
+  "japanese_held": [
+    {
+      "topic": "Machine learning",
+      "method": "english2",
+      "difference": -0.0004234573311240192
+    },
+    {
+      "topic": "Moon",
+      "method": "english2",
+      "difference": -0.001386168901954636
+    },
+    {
+      "topic": "Olympic Games",
+      "method": "english2",
+      "difference": -0.0028856335598522673
+    },
+    {
+      "topic": "Tsunami",
+      "method": "english2",
+      "difference": 0.01312370570630611
+    },
+    {
+      "topic": "Machine learning",
+      "method": "english7",
+      "difference": 0.002262774492536576
+    },
+    {
+      "topic": "Moon",
+      "method": "english7",
+      "difference": -0.00011673434394374876
+    },
+    {
+      "topic": "Olympic Games",
+      "method": "english7",
+      "difference": -0.0002916434342729521
+    },
+    {
+      "topic": "Tsunami",
+      "method": "english7",
+      "difference": 0.01065745118082273
+    }
+  ],
+  "validation": [
+    {
+      "family": "own",
+      "penalty": 0.0001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04188182739009699,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 0.001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.041852590028553134,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.041977271462085027,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 0.1,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.049511171016404634,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 1.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.09738805314002626,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 10.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.2887369444301324,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 100.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.426252764141207,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.0001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04298146273226699,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.042913984018338486,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04278150828296134,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.1,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04861271650630758,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 1.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.08605170184590089,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 10.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.2469695554033104,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 100.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.4146425600275102,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.0001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04311345068145358,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04307203591680261,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.01,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04316382739672081,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.1,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.049825103103392526,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 1.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.09205324881109835,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 10.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.25640442836377464,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 100.0,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.41653645843655923,
+      "eligible": true
+    }
+  ],
+  "selected_penalties": {
+    "own": 0.001,
+    "english2": 0.01,
+    "english7": 0.001
+  },
+  "held_months": [
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 1,
+      "difference": -0.002413332900877526
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 2,
+      "difference": -0.0007848325673259493
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 3,
+      "difference": 0.00030607343779522067
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 4,
+      "difference": -0.002433987667314702
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 5,
+      "difference": -0.0022141842486855523
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 6,
+      "difference": -0.003874757378998575
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 7,
+      "difference": 0.0024498967318735687
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 8,
+      "difference": 0.005467976280886883
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 9,
+      "difference": -0.004085927374207578
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 10,
+      "difference": -0.003724573644618756
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 11,
+      "difference": -0.002971269916025497
+    },
+    {
+      "language": "es",
+      "method": "english2",
+      "month": 12,
+      "difference": -0.007727392123158011
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 1,
+      "difference": -0.0006775551087574681
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 2,
+      "difference": 0.000673892989598357
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 3,
+      "difference": -0.0002653068608098122
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 4,
+      "difference": -0.0020299620113858816
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 5,
+      "difference": 0.0018426896299304496
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 6,
+      "difference": -0.002288419607807124
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 7,
+      "difference": 0.004010901187551319
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 8,
+      "difference": 0.012261568317877294
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 9,
+      "difference": -0.0017525665400760157
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 10,
+      "difference": -0.001071364734070615
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 11,
+      "difference": -0.0011129094190814454
+    },
+    {
+      "language": "es",
+      "method": "english7",
+      "month": 12,
+      "difference": 5.9743836206077594e-05
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 1,
+      "difference": -0.0018596852137901104
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 2,
+      "difference": 9.451716611673378e-05
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 3,
+      "difference": -0.0029057710948557913
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 4,
+      "difference": -0.008719970091233376
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 5,
+      "difference": -0.0013118831134931591
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 6,
+      "difference": -0.0015635425649306
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 7,
+      "difference": 0.02537638753109528
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 8,
+      "difference": -0.00014311975105297386
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 9,
+      "difference": -0.0009092295291728489
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 10,
+      "difference": 0.008055335151443993
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 11,
+      "difference": 0.0017194462538192568
+    },
+    {
+      "language": "ja",
+      "method": "english2",
+      "month": 12,
+      "difference": 0.006680610261289827
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 1,
+      "difference": -0.0010226071335638631
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 2,
+      "difference": 0.0005350516503999196
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 3,
+      "difference": 0.0019458559384498073
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 4,
+      "difference": -0.000962689720166443
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 5,
+      "difference": 0.0020483744318278638
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 6,
+      "difference": -0.00012601619141499806
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 7,
+      "difference": 0.002275724227401299
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 8,
+      "difference": 0.024711805756464755
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 9,
+      "difference": 0.004229738327022371
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 10,
+      "difference": 0.0021214874384910543
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 11,
+      "difference": 0.00018653405215807162
+    },
+    {
+      "language": "ja",
+      "method": "english7",
+      "month": 12,
+      "difference": 0.001045090960045153
+    }
+  ],
+  "source_sha256": {
+    "test_summary.csv": "12a282da0886222e06c694beed5110d893c0ba7ac834e73d2eb9e7b870e4501a",
+    "paired_intervals.csv": "d6c4f8a6380d58fe5b1a4beb6e05b5f26f26d95b3bebf3d643e0d1fa73cdb057",
+    "test_metrics.csv": "552ac86645b037829fbd8eeb46eb47fcb2903e240f327d649106d8bfc38361f9",
+    "test_predictions.csv.gz": "8852af70ba03e713177549143532c3325f02e940966d8c02d5dc4f191f7766ec",
+    "selection.json": "b082559191630cabec8a1bbe51e754875691777efb4c267b07b7937d045028a4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "fresh_validation_fits": 567,
+  "fresh_final_refits": 78,
+  "validation_predictions": 69174,
+  "test_predictions": 47450,
+  "bootstrap_draws": 16000,
+  "original_405_models_unchanged": true,
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09,
+  "end_to_end_seconds": 43.22763839998515,
+  "scope": "All source rows, 645 fresh fits, frozen transforms/coefficients, every validation/test prediction, all metric tables, common month indices/draws/intervals and plotted values.",
+  "provenance_comparison": "Within-run hashes checked; cross-platform JSON/CSV newline byte hashes, timings and replay commit marker are excluded from scientific comparisons."
+}
