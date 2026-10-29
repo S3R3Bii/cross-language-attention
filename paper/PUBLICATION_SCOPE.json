@@ -1,0 +1,13 @@
+{
+  "scope": "independent-program-study",
+  "study_id": "49",
+  "formal_submission_target": false,
+  "authorization": "Owner explicitly authorized GitHub publication of these independent study manuscripts on 28 October 2026. Formal-publication projects, including the separate Azure optimization study, remain excluded.",
+  "public_files": {
+    "paper/main.tex": "4399c7b6e25b325f09d661e0f9abaeea58fffc9f7204e637a9d9aa3e07199984",
+    "paper/manuscript.pdf": "6b38281a02b78dca78a2d4dee6c72b17d2dabcb818a5a803e82dd046c3bcd9a1",
+    "paper/images/01_predictive_comparison.pdf": "9f7d1f92fc2c4c4c14b2745745eb033aa813e999f74d0440d389735bb76900a9",
+    "paper/images/02_paired_transfer.pdf": "0330d9ef40504582f5d3e8646d9c562c17f61cbc732b8df6f0e156cf54b139ee",
+    "paper/images/03_search_and_months.pdf": "21274308b7f9eb44bd0814093bce484bb22ea7e4560fd815c00f7fc663be79d4"
+  }
+}

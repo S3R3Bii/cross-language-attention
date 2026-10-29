@@ -2,6 +2,8 @@
 
 Protocol v1 with source amendment v2, 28 October 2026. The original version preceded pageview retrieval and fitting. [The source amendment](SOURCE_AMENDMENT_V2.md) preserves the initial failed coverage gate and adds four development topics before any fitting or forecast outcome summary. All model-selection and evaluation rules remain fixed.
 
+[Search extension v2](SEARCH_EXTENSION_V2.md) retains the original 405 validation fits and adds two smaller penalties per family after all initial winners reached the lower boundary, before test inference. The final finite pool has 21 configurations and 567 fits on the nine eligible Spanish development topics; all earlier evidence remains accessible.
+
 ## Decision, target and population
 
 Test whether a fixed English-language history improves a related Spanish or Japanese page's forecast beyond its own past. The target is the Wikimedia API's daily `agent=user`, `all-access` view count for one fixed article title and UTC date. Counts are requests classified as user traffic, not unique people, nationality or language proficiency. The API can misclassify automated traffic.

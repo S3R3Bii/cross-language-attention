@@ -1,0 +1,16 @@
+{
+  "state": "RETAINED_CI_FAILURE_AND_PROVENANCE_REPAIR",
+  "failed_head": "079327a11c4b9a694c87bf41b735e67ad1ad64cc",
+  "failed_run": "https://github.com/S3R3Bii/cross-language-attention/actions/runs/40791912629",
+  "job": 123178934762,
+  "scientific_replay": "PASS: all 645 fresh fits, predictions, metrics, bootstrap draws and plotted values reproduced at the original tolerances.",
+  "failure": "Manuscript verifier read the fresh Linux QR residual (9.712630005820344e-14) after replay overwrote the working check report; the paper quotes the retained review-run residual (9.655470867286908e-14). Rounded exact-string equality correctly failed for these different run observations.",
+  "repair": "Check publication extrema against explicitly hashed certificate blobs from the reviewed Git commit. Fresh replay continues to independently bound all new certificates. Preserve both runs as evidence.",
+  "unchanged": "No source, cohort, model, fitting rule, evaluation method, prediction, metric, manuscript number, test split or numerical tolerance changed. No test-based selection or rerun correction of a scientific result occurred.",
+  "scope": "Provenance repair for historical numerical diagnostics, not a relaxed scientific gate.",
+  "targeted_checks": {
+    "different_fresh_working_diagnostic": "PASS: retained committed publication certificate used;fresh result still checked by independent replay",
+    "tampered_certificate_hash": "PASS: false declared hash rejected",
+    "restored_current_version": "PASS: exact original bytes restored;source-to-manuscript check passes"
+  }
+}

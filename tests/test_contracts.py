@@ -63,9 +63,9 @@ class ScientificContracts(unittest.TestCase):
         self.assertAlmostEqual(score['msle'], np.log(10) ** 2 / 2)
         self.assertEqual(score['mase'], 1.5)
 
-    def test_finite_search_contains_fifteen_settings(self):
-        self.assertEqual(PENALTIES, [0.01, 0.1, 1., 10., 100.])
-        self.assertEqual(len(FAMILIES) * len(PENALTIES), 15)
+    def test_finite_search_matches_the_documented_bounded_extension(self):
+        self.assertEqual(PENALTIES, [0.0001, 0.001, 0.01, 0.1, 1., 10., 100.])
+        self.assertEqual(len(FAMILIES) * len(PENALTIES), 21)
 
 
 if __name__ == '__main__':

@@ -3,10 +3,10 @@
   "selected": {
     "own": {
       "family": "own",
-      "penalty": 0.01,
+      "penalty": 0.001,
       "fits": 27,
       "failed_fits": 0,
-      "mean_page_fold_msle": 0.041977271462085027,
+      "mean_page_fold_msle": 0.041852590028553134,
       "eligible": true
     },
     "english2": {
@@ -19,14 +19,30 @@
     },
     "english7": {
       "family": "english7",
-      "penalty": 0.01,
+      "penalty": 0.001,
       "fits": 27,
       "failed_fits": 0,
-      "mean_page_fold_msle": 0.04316382739672081,
+      "mean_page_fold_msle": 0.04307203591680261,
       "eligible": true
     }
   },
   "candidates": [
+    {
+      "family": "own",
+      "penalty": 0.0001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04188182739009699,
+      "eligible": true
+    },
+    {
+      "family": "own",
+      "penalty": 0.001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.041852590028553134,
+      "eligible": true
+    },
     {
       "family": "own",
       "penalty": 0.01,
@@ -65,6 +81,22 @@
       "fits": 27,
       "failed_fits": 0,
       "mean_page_fold_msle": 0.426252764141207,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.0001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04298146273226699,
+      "eligible": true
+    },
+    {
+      "family": "english2",
+      "penalty": 0.001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.042913984018338486,
       "eligible": true
     },
     {
@@ -109,6 +141,22 @@
     },
     {
       "family": "english7",
+      "penalty": 0.0001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04311345068145358,
+      "eligible": true
+    },
+    {
+      "family": "english7",
+      "penalty": 0.001,
+      "fits": 27,
+      "failed_fits": 0,
+      "mean_page_fold_msle": 0.04307203591680261,
+      "eligible": true
+    },
+    {
+      "family": "english7",
       "penalty": 0.01,
       "fits": 27,
       "failed_fits": 0,
@@ -148,9 +196,9 @@
       "eligible": true
     }
   ],
-  "fitted_models": 405,
-  "trial_rows": 405,
-  "prediction_rows": 49410,
+  "fitted_models": 567,
+  "trial_rows": 567,
+  "prediction_rows": 69174,
   "selection_language": "es",
   "selection_role": "development",
   "selection_topics": [

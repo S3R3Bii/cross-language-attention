@@ -1,6 +1,7 @@
 """Retain every forward trial, then freeze rule-based final refits before test inference."""
 import argparse
 import csv
+import gzip
 import json
 import time
 from datetime import date, timedelta
@@ -15,16 +16,39 @@ def write_csv(path, rows):
         writer.writerows(rows)
 
 
-def validate(root=ROOT):
+def validate(root=ROOT, reuse_existing=False):
     pairs = [pair for pair in load_pairs(root) if pair['language'] == 'es' and pair['role'] == 'development']
     assert len(pairs) >= 6
     panel, trials, predictions = read_panel(root), [], []
     models = {}
+    if reuse_existing:
+        archive = root / 'results/search-v1'
+        receipt = json.loads((archive / 'SEARCH_RECEIPT.json').read_text(encoding='utf-8'))
+        assert receipt['status'] == 'PASS_ORIGINAL_VALIDATION_ONLY_SEARCH'
+        for filename, digest in receipt['sha256'].items():
+            assert sha((archive / filename).read_bytes()) == digest, filename
+        models = json.loads((archive / 'validation_models.json').read_text(encoding='utf-8'))
+        with (archive / 'validation_trials.csv').open(encoding='utf-8', newline='') as stream:
+            trials = list(csv.DictReader(stream))
+        for row in trials:
+            for key in ['fold', 'training_n', 'n']:
+                row[key] = int(row[key])
+            for key in ['penalty', 'runtime_seconds', 'msle', 'rmsle', 'mae', 'mse', 'rmse']:
+                row[key] = float(row[key])
+            assert row['status'] == 'ok'
+        with gzip.open(archive / 'validation_predictions.csv.gz', 'rt', encoding='utf-8', newline='') as stream:
+            predictions = list(csv.DictReader(stream))
+        for row in predictions:
+            row['fold'], row['actual'] = int(row['fold']), int(row['actual'])
+            for key in ['pred_log_raw', 'pred_log_clipped', 'prediction']:
+                row[key] = float(row[key])
     for family in FAMILIES:
         for penalty in PENALTIES:
             for pair in pairs:
                 for fold, (start, end) in enumerate(FOLDS):
                     name = f"{family}_l{penalty:g}_{pair['qid']}_f{fold}"
+                    if name in models:
+                        continue
                     row = {'model': name, 'family': family, 'penalty': penalty, 'qid': pair['qid'],
                            'topic': pair['topic'], 'language': 'es', 'role': 'development', 'fold': fold,
                            'status': 'failed', 'runtime_seconds': None, 'training_n': None, 'n': None,
@@ -101,6 +125,7 @@ def freeze(root=ROOT):
         'models_sha256': sha((root / 'results/frozen_models.json').read_bytes()),
         'panel_sha256': sha((root / 'data/panel.csv.gz').read_bytes()),
         'protocol_sha256': sha((root / 'PROTOCOL.md').read_bytes()),
+        'normalized_source_sha256': {name: sha((root / name).read_text(encoding='utf-8').encode('utf-8')) for name in ['src/model.py', 'src/train.py', 'src/evaluate.py', 'PROTOCOL.md', 'SOURCE_AMENDMENT_V2.md', 'SEARCH_EXTENSION_V2.md']},
         'test_start': '2025-01-01', 'test_end': '2025-12-31', 'test_inference_performed': False,
         'scope': 'Hyperparameter transfer; final models fit their own pre-2025 page history. Retrospective source snapshot.'})
     print('Frozen', len(models), 'models; no 2025 prediction or scoring performed. Commit before evaluation.')
@@ -109,5 +134,6 @@ def freeze(root=ROOT):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('mode', choices=['validate', 'freeze'])
+    parser.add_argument('--reuse-existing', action='store_true')
     args = parser.parse_args()
-    validate() if args.mode == 'validate' else freeze()
+    validate(reuse_existing=args.reuse_existing) if args.mode == 'validate' else freeze()

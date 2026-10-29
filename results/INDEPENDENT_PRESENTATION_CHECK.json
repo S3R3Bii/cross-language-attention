@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "groups": 20,
+  "intervals": 8,
+  "japanese_topic_contrasts": 8,
+  "validation_settings": 21,
+  "held_month_contrasts": 48,
+  "scope": "All plotted values reconstructed; source hashes and three rendered file pairs checked. Visual layout requires separate inspection.",
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09
+}

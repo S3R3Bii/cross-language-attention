@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-10-29T00:04:37.158723+00:00",
+  "status": "PASS_SCOPED_GITHUB_MANUSCRIPT",
+  "grade": 4,
+  "pages": 6,
+  "public_files_sha256": {
+    "paper/main.tex": "4399c7b6e25b325f09d661e0f9abaeea58fffc9f7204e637a9d9aa3e07199984",
+    "paper/manuscript.pdf": "6b38281a02b78dca78a2d4dee6c72b17d2dabcb818a5a803e82dd046c3bcd9a1",
+    "paper/images/01_predictive_comparison.pdf": "9f7d1f92fc2c4c4c14b2745745eb033aa813e999f74d0440d389735bb76900a9",
+    "paper/images/02_paired_transfer.pdf": "0330d9ef40504582f5d3e8646d9c562c17f61cbc732b8df6f0e156cf54b139ee",
+    "paper/images/03_search_and_months.pdf": "21274308b7f9eb44bd0814093bce484bb22ea7e4560fd815c00f7fc663be79d4"
+  },
+  "checks": {
+    "rendered_layout": "PASS: all six pages and all three full-size figures inspected; changed page 2 freshly rechecked; no observed clipping, overlap or missing figures",
+    "compiler": "PASS: no overfull box, missing glyph or undefined reference; underfull warnings: 0",
+    "privacy": "PASS: text pattern scan and no PDF attachments/JavaScript; bounded check, not universal secret detection",
+    "numerical_source_support": "PASS: independent manuscript check verifies headline tables, held intervals, page contrasts/wins, aggregate/raw losses, every exclusion, penalties, certificate extrema and file hashes.",
+    "scope": "PASS: original independent study, not a formal-submission project; no peer-review, prospective, causal or novelty claim"
+  },
+  "retained_repairs": [
+    "First compiler overfull warnings preserved in the private round-1 evidence; repaired line breaking.",
+    "Intermediate orphan continuation detected; tightened redundant certification prose without changing numerical claims.",
+    "All six exclusion names now come directly from verified source accounting; independent manuscript check caught and corrected Moon/Sun and Earthquake/Solar-eclipse authoring labels before publication. No source/model/evaluation change."
+  ],
+  "limitations": "Bounded source, rendering and privacy review; no universal accessibility, correctness or secret-detection guarantee.",
+  "publication_certificate_sha256": {
+    "results/INDEPENDENT_VALIDATION_CHECK.json": "843ea311bf2da8f2e09214cdbc73c764aa6263a3302e025629c33ff1389a03bc",
+    "results/INDEPENDENT_FROZEN_CHECK.json": "4f7995d4b458effaeef11d83c502c0bc4c2ab5cab69669726c8f8a2e14f46a13"
+  }
+}
